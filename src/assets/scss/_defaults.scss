@@ -7,6 +7,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #05090b;
+	color: #faf7f2;
 }
 body {
 	font-family: var(--font-family);
@@ -14,9 +16,11 @@ body {
 }
 code {
 	font-family: var(--font-family-mono);
-} 
+}
 main {
-	p { line-height: 1.5; }
+	p {
+		line-height: 1.5;
+	}
 }
 a {
 	color: var(--home-link-color);

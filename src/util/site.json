@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Metsän Otus",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+    "description": "karhumaisia mielipiteitä",
     "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "image": "/assets/MetsanOtusLogoOfficial.png",
+    "iconimage": "/assets/MetsanOtusLogoOfficial.png",
+    "twitterUsername": "@MetsanOde"
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-151881827-4"
 }

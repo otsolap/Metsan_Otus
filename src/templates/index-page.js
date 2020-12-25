@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import VlogListHome from "../components/vlog-list-home"
 import SEO from "../components/seo"
 
 export const pageQuery = graphql`
@@ -38,29 +38,29 @@ const HomePage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
-	return (
-		<Layout>
-      <SEO/>
+  return (
+    <Layout>
+      <SEO />
       <div className="home-banner grids col-1 sm-2">
         <div>
           <h1 class="title">{frontmatter.title}</h1>
           <p class="tagline">{frontmatter.tagline}</p>
-          <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
-          <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span></Link>
+          <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+          <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine /></span></Link>
         </div>
         <div>
           {Image ? (
-            <Img 
-              fluid={Image} 
+            <Img
+              fluid={Image}
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
           ) : ""}
         </div>
       </div>
-      <BlogListHome/>
-		</Layout>
-	)
+      <VlogListHome />
+    </Layout>
+  )
 }
 
 export default HomePage

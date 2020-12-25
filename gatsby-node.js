@@ -1,13 +1,14 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+// Data layer antaa pluginssien tehdä datasta sivuja.
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
-  //const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const blogList = path.resolve(`./src/templates/blog-list.js`)
+  //const vlogPost = path.resolve(`./src/templates/vlog-post.js`)
+  const vlogList = path.resolve(`./src/templates/vlog-list.js`)
 
-  const result = await graphql(`
+  const vlogresult = await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
@@ -27,19 +28,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   `)
 
   // Handle errors
-  if (result.errors) {
+  if (vlogresult.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
 
   // Create markdown pages
-  const posts = result.data.allMarkdownRemark.edges
-  let blogPostsCount = 0
+  const vlogPosts = vlogresult.data.allMarkdownRemark.edges
+  let vlogPostsCount = 0
 
-  posts.forEach((post, index) => {
+  vlogPosts.forEach((post, index) => {
     const id = post.node.id
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+    const previous = index === vlogPosts.length - 1 ? null : vlogPosts[index + 1].node
+    const next = index === 0 ? null : vlogPosts[index - 1].node
 
     createPage({
       path: post.node.frontmatter.slug,
@@ -54,24 +55,24 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
 
-    // Count blog posts.
-    if (post.node.frontmatter.template === 'blog-post') {
-      blogPostsCount++
+    // Count vlog posts.
+    if (post.node.frontmatter.template === 'vlog-post') {
+      vlogPostsCount++
     }
   })
 
-  // Create blog-list pages
-  const postsPerPage = 9
-  const numPages = Math.ceil(blogPostsCount / postsPerPage)
+  // Create vlog-list pages
+  const vlogPostsPerPage = 9
+  const numVlogPages = Math.ceil(vlogPostsCount / vlogPostsPerPage)
 
-  Array.from({ length: numPages }).forEach((_, i) => {
+  Array.from({ length: numVlogPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-      component: blogList,
+      path: i === 0 ? `/vlog` : `/vlog/${i + 1}`,
+      component: vlogList,
       context: {
-        limit: postsPerPage,
-        skip: i * postsPerPage,
-        numPages,
+        limit: vlogPostsPerPage,
+        skip: i * vlogPostsPerPage,
+        numVlogPages,
         currentPage: i + 1,
       },
     })

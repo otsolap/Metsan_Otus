@@ -5,30 +5,28 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 :root {
-
-	--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+	--font-family: Poppins, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu,
+		roboto, noto, segoe ui, arial, sans-serif;
 	--font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  --font-size-small: 12px;
-  
-  --primary-color: #5C2941;
-  --header-bg: #5C2941;
+	--font-size-small: 12px;
 
-  --home-link-color: #A1613F;
-  --home-link-hover-color:  var(--primary-color);
+	--primary-color: #e39b41;
+	--header-bg: #e39b41;
 
-  --button-color: #E5C3D3;
-  --button-alternate-color: #5C2941;
+	--home-link-color: #a1613f;
+	--home-link-hover-color: var(--primary-color);
 
-  --post-link-color: #0F070B;
+	--button-color: #faf7f2;
+	--button-alternate-color: #e39b41;
 
+	--post-link-color: #faf7f2;
 
-  --nav-link-hover-bg: #111;
-  --text-color-meta: rgba(0,0,0,0.5);
+	--nav-link-hover-bg: #111;
+	--text-color-meta: ##faf7f2;
 
-  --label-text: rgba(0,0,0,0.5);
-  --input-focus-border: #83AAAC;
-  
-  // CSS Grid Utility
-  --grid-gap: 30px; 
+	--label-text: ##faf7f2;
+	--input-focus-border: #83aaac;
 
+	// CSS Grid Utility
+	--grid-gap: 30px;
 }

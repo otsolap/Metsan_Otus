@@ -3,6 +3,11 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+// this requires the npm-package dotenv.
+let env = process.env.NODE_ENV || 'development';
+require('dotenv').config({ path: `./.env.${env}` });
+
+
 const netlifyCmsPaths = {
   resolve: `gatsby-plugin-netlify-cms-paths`,
   options: {
@@ -66,7 +71,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require('sass')
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     {
@@ -79,15 +89,26 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Metsän Otus`,
+        short_name: `Metsän Otus`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#faf7f2`,
+        theme_color: `#e39b41`,
         display: `standalone`,
         icon: "static" + settings.meta.iconimage,
       },
     },
+    // this plugin enables Progressive Web App + Offline functionality
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Poppins`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
   ],
 }

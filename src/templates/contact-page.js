@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import {RiSendPlane2Line} from "react-icons/ri";
+import { RiSendPlane2Line } from "react-icons/ri";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -23,39 +23,63 @@ export const pageQuery = graphql`
   }
 `
 
-const Contact = ({data}) => {
+const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  // input type hidden on netlifytä varten, jotta netlify tietää mikä lomake kyseessä.
+  // contact on meidän lomake, niin kaikki viestit löytyy contact-lomakkeen alta.
+  // honeypot=bot-field on botteja varten.
+  // p hidden pitää kohdan piilossa, mutta console.logilla sen löytää. ;-)
 
-  return  (
+  const handleSendEmail = async (event) => {
+    event.preventDefault();
+
+    try {
+      const response = await fetch("/.netlify/functions/contact-form-email", {
+        method: "POST",
+      })
+
+      if (!response.ok) {
+        //not 200 response
+        return
+      }
+
+      //all OK
+
+    } catch (e) {
+      //error
+    }
+  }
+
+  return (
     <Layout className="contact-page">
-      <SEO 
+      <SEO
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-        <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="contact-form" action="/kiitos" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSendEmail}   >
           <input type="hidden" name="form-name" value="contact" />
+          <p hidden><input name="bot-field" /></p>
           <p>
-            <label>Name<input type="text" name="name" required /></label>   
+            <label><input required placeholder="Nimi *" type="text" name="name" /></label>
           </p>
           <p>
-            <label>Email<input type="email" name="email" required /></label>
+            <label><input required placeholder="Puhelin *" type="number" name="phone" /></label>
           </p>
           <p>
-            <label>Subject<input type="text" name="subject" required /></label>   
+            <label><input required placeholder="Sähköposti *" type="email" name="email" /></label>
           </p>
           <p>
-            <label>Message<textarea name="message" required ></textarea></label>
+            <label><textarea placeholder="Viesti" name="message"></textarea></label>
           </p>
-          <p className="text-align-right">
-            <button className="button" type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
+          <p className="text-align-center">
+            <button className="button" type="submit">Lähetä<span className="icon -right"><RiSendPlane2Line /></span></button>
           </p>
         </form>
       </div>
-
     </Layout>
   )
 }

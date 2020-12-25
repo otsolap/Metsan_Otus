@@ -1,7 +1,7 @@
 ---
 template: about-page
-slug: /about
-title: About Foundation
+slug: /metsan-otus
+title: Karhumaisia mielipiteitä
 ---
 Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
 
