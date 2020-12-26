@@ -5,7 +5,6 @@ const _ = require("lodash")
 // Data layer antaa pluginssien tehdä datasta sivuja.
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-
   //const vlogPost = path.resolve(`./src/templates/vlog-post.js`)
   const vlogList = path.resolve(`./src/templates/vlog-list.js`)
   const tagList = path.resolve("./src/templates/tags.js")
@@ -46,8 +45,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Create markdown pages
   const vlogPosts = vlogresult.data.allMarkdownRemark.edges
   const tags = vlogresult.data.tagsGroup.group
-
-
   let vlogPostsCount = 0
 
   vlogPosts.forEach((post, index) => {
@@ -94,7 +91,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Make tag pages
   tags.forEach(tag => {
     createPage({
-      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+      path: `/tagit/${_.kebabCase(tag.fieldValue)}/`,
       component: tagList,
       context: {
         tag: tag.fieldValue,
@@ -103,10 +100,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
 }
 
+// Luo sivuja
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: `sivut` })
     createNodeField({
       node,
       name: `slug`,

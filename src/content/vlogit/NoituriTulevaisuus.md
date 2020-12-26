@@ -1,7 +1,7 @@
 ---
 template: vlog-post
 title: Noituri Myrskykausi & Tulevaisuus - Kirja-arvostelu - Oden Kirjakerho
-slug: /noituri-3
+slug: /vlogit/noituri-3
 date: 2020-06-14 12:37
 description: this is the fourth post
 featuredImage: /assets/Noituri_3.jpg

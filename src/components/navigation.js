@@ -12,11 +12,11 @@ const MenuItems = [
     title: "Metsän Otus"
   },
   {
-    path: "/vlogi",
+    path: "/vlogit",
     title: "Vlogi"
   },
   {
-    path: "/contact",
+    path: "/yhteydenotto",
     title: "Ota Yhteyttä"
   },
 ]

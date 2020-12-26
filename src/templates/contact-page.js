@@ -38,14 +38,11 @@ const Contact = ({ data }) => {
       const response = await fetch("/.netlify/functions/contact-form-email", {
         method: "POST",
       })
-
       if (!response.ok) {
-        //not 200 response
+        //EI 200 response
         return
       }
-
       //all OK
-
     } catch (e) {
       //error
     }

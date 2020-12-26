@@ -1,7 +1,7 @@
 ---
 template: vlog-post
 title: Greedfall - Peliarvostelu - Oden Pelihallissa
-slug: /greedfall-peliarvostelu
+slug: /vlogit/greedfall-peliarvostelu
 date: 2020-06-14 14:00
 description: this is the fifth test post
 featuredImage: /assets/GreedfallLogo.jpg

@@ -1,7 +1,7 @@
 ---
 template: vlog-post
 title: Noituri - Kirja-arvostelu - Oden Kirjakerho
-slug: /noituri-1
+slug: /vlogit/noituri-1
 date: 2020-06-14 12:37
 description: this is the fourth post
 featuredImage: /assets/Noituri_1.jpg

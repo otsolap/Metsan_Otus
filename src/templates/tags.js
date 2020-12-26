@@ -20,12 +20,13 @@ const Tags = ({ pageContext, data }) => {
           )
         })}
       </ul>
-      <Link to="/tags">All tags</Link>
+      <Link to="/tagit">All tags</Link>
     </div>
   )
 }
 
-export default Tags
+export default Tags;
+
 export const pageQuery = graphql`
   query($tag: String) {
     allMarkdownRemark(

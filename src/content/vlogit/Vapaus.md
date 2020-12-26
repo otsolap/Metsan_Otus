@@ -1,7 +1,7 @@
 ---
 template: vlog-post
 title: Vapaus tuntea olemaan oma itsensä
-slug: /vapaus
+slug: /vlogit/vapaus
 date: 2020-09-13 12:15
 description: this is the sixth test post
 featuredImage: /assets/VapausKansi.jpg

@@ -1,7 +1,7 @@
 ---
 template: vlog-post
 title: Miten olla parempi ihminen
-slug: /miten-olla-parempi
+slug: /vlogit/miten-olla-parempi
 date: 2020-12-07 09:30
 description: this is the first test post
 featuredImage: /assets/MitenOllaLogo.png
