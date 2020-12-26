@@ -1,10 +1,11 @@
 ---
 template: vlog-post
-title: Dyyni - Kirja-arvostelu - Oden Kirjakerho
+title: Dyyni - Kirja-arvostelu
 slug: /dyyni-kirja-arvostelu
 date: 2020-06-14 16:00
 description: this is the seventh test post
 featuredImage: /assets/DyyniLogo.jpg
+tags: ["kirja-arvostelu", "Dyyni"]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra non sapien egestas mollis. Quisque et eros id dui convallis eleifend. Cras rhoncus, eros laoreet lobortis blandit, diam lacus lacinia elit, id rhoncus nibh magna sed urna. Fusce at venenatis lacus. Etiam malesuada neque erat, quis tincidunt risus imperdiet nec. Aliquam gravida urna at urna facilisis, a dapibus felis malesuada. Duis vel fermentum sem, a vulputate ligula. Nam et elementum velit, vitae laoreet enim. Aenean elementum libero nunc, vitae posuere leo eleifend eu. Nam lacinia quam non enim fringilla ultricies. Nullam ultrices libero diam, vitae laoreet nulla elementum a. Etiam malesuada, erat sed porta congue, lectus felis egestas nunc, accumsan luctus velit sapien id dolor. Pellentesque ultrices mi in lectus mattis, ac blandit mauris porta. Aliquam suscipit sagittis diam eu viverra. Vivamus commodo, diam quis tristique dictum, tellus nisl bibendum odio, quis efficitur augue turpis eu dui. Sed dignissim nec lorem eu laoreet.
 

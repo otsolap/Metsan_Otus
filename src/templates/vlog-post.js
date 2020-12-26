@@ -70,6 +70,8 @@ const Post = ({ data, pageContext }) => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
+      <h3>Tagit </h3>
+      {frontmatter.tags.map(tag => <span className="vlog-tag">{tag}</span>)}
       {(previous || next) && (
         <Pagination {...props} />
       )}
@@ -92,6 +94,7 @@ export const pageQuery = graphql`
         slug
         title
         description
+        tags
         featuredImage {
           childImageSharp {
             fluid(maxWidth: 1980, maxHeight: 768, quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {

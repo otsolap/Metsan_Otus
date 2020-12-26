@@ -1,5 +1,6 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const _ = require("lodash")
 
 // Data layer antaa pluginssien tehdä datasta sivuja.
 exports.createPages = async ({ actions, graphql, reporter }) => {
@@ -7,6 +8,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   //const vlogPost = path.resolve(`./src/templates/vlog-post.js`)
   const vlogList = path.resolve(`./src/templates/vlog-list.js`)
+  const tagList = path.resolve("./src/templates/tags.js")
 
   const vlogresult = await graphql(`
     {
@@ -15,18 +17,26 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             id
             frontmatter {
               slug
               template
               title
+              tags
             }
           }
         }
       }
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
     }
   `)
-
   // Handle errors
   if (vlogresult.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
@@ -35,6 +45,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create markdown pages
   const vlogPosts = vlogresult.data.allMarkdownRemark.edges
+  const tags = vlogresult.data.tagsGroup.group
+
+
   let vlogPostsCount = 0
 
   vlogPosts.forEach((post, index) => {
@@ -67,7 +80,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   Array.from({ length: numVlogPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/vlog` : `/vlog/${i + 1}`,
+      path: i === 0 ? `/vlogi` : `/vlogi/${i + 1}`,
       component: vlogList,
       context: {
         limit: vlogPostsPerPage,
@@ -78,6 +91,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
+  // Make tag pages
+  tags.forEach(tag => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+      component: tagList,
+      context: {
+        tag: tag.fieldValue,
+      },
+    })
+  })
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

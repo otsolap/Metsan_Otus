@@ -5,6 +5,7 @@ slug: /noituri-3
 date: 2020-06-14 12:37
 description: this is the fourth post
 featuredImage: /assets/Noituri_3.jpg
+tags: ["kirja-arvostelu", "noituri", "the witcher"]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sem ligula, nec placerat ex posuere a. Cras volutpat mi eget condimentum accumsan. Maecenas sed tortor enim. Sed imperdiet tincidunt nulla id suscipit. Donec mollis bibendum lobortis. Phasellus tincidunt mi non velit ornare tincidunt. Pellentesque commodo orci vel neque efficitur, id dictum nisi blandit. Mauris ut erat felis. Cras in leo sit amet tellus lacinia bibendum. Sed ut magna id urna porta semper quis non massa.
 

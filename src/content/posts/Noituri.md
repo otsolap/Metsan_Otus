@@ -5,6 +5,7 @@ slug: /noituri-1
 date: 2020-06-14 12:37
 description: this is the fourth post
 featuredImage: /assets/Noituri_1.jpg
+tags: ["kirja-arvostelu", "noituri"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate pulvinar lobortis. Fusce quis ex felis. Aliquam nec tellus in est posuere ornare sit amet at dolor. Mauris bibendum euismod lacus eu efficitur. Curabitur eget augue nec nisl porttitor sodales. Phasellus et ex nunc. Suspendisse potenti. Vivamus ornare, nulla ut tempus ultrices, orci lectus semper tellus, non suscipit odio ligula eu mi.

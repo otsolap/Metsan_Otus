@@ -5,6 +5,7 @@ slug: /miten-olla-parempi
 date: 2020-12-07 09:30
 description: this is the first test post
 featuredImage: /assets/MitenOllaLogo.png
+tags: ["itseapu", "meditaatio", "uskonto"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec quam fermentum, fringilla purus ut, rutrum enim. Mauris eleifend aliquam mauris, sed mattis elit scelerisque vel. Nulla at enim faucibus odio cursus euismod sit amet nec ex. Vestibulum non iaculis lectus. Etiam aliquet ante elementum, rutrum tortor lobortis, eleifend felis. Nam eget quam a tellus luctus suscipit. Praesent et imperdiet tellus, quis feugiat lacus. Donec vel purus varius, eleifend neque convallis, laoreet nibh. Suspendisse dignissim orci sit amet velit tempus, ac varius dolor laoreet. Curabitur vestibulum odio sed tempor vulputate. Aliquam vel eros pulvinar, posuere mauris at, dictum elit. Quisque nec porttitor eros.

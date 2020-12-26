@@ -5,6 +5,7 @@ slug: /vapaus
 date: 2020-09-13 12:15
 description: this is the sixth test post
 featuredImage: /assets/VapausKansi.jpg
+tags: ["yhteiskunta",  "politiikka"]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum metus massa, ut elementum mi ultricies sed. Donec libero urna, cursus a elementum at, congue non sem. Curabitur nec mauris ac tellus ultrices commodo semper sed tortor. Ut eget convallis elit. Cras at varius mauris. Donec id dolor sagittis lacus tempus congue ac et arcu. Nam sit amet bibendum odio, vitae tincidunt metus.
 
