@@ -21,8 +21,8 @@ collections:
     description: >
       Create awesome content here.
     folder: 'src/content/posts'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    summary: '{{title}} — {{year}}/{{month}}/{{day}}'
+    slug: '{{year}}-{{day}}-{{month}}-{{slug}}'
+    summary: '{{title}} — {{year}}/{{day}}/{{month}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Template', name: 'template', widget: 'hidden', default: 'vlog-post'}
@@ -32,9 +32,9 @@ collections:
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
-          dateFormat: 'YYYY-MM-DD',
+          dateFormat: 'DD-MM-YYYY',
           timeFormat: 'HH:mm',
-          format: 'YYYY-MM-DD HH:mm',
+           format: 'DD-MM-YYYY HH:mm',
         }
       - { label: 'SEO Description', name: 'description', widget: 'text' }
       - {
@@ -69,20 +69,20 @@ collections:
             - name: "ctaLink"
               label: "CTA Link"
               widget: "string"
-      - label: "About"
-        name: "about"
+      - label: "Metsän Otus"
+        name: "metsan-otus"
         file: "src/content/pages/about.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "about-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/about" }
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Contact"
-        name: "contact"
+      - label: "Ota Yhteyttä"
+        name: "Ota Yhteyttä"
         file: "src/content/pages/contact.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "contact-page" }
-        - {label: "Slug", name: "slug", widget: "hidden", default: "/contact" }
+        - {label: "Slug", name: "slug", widget: "hidden", default: "/contact-page" }
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
   - name: settings

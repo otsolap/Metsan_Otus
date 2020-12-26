@@ -1,12 +1,13 @@
 {
-  "name": "Metsän Otus",
+  "name": "Metsan_Otus",
   "description": "Karhumaisia mielipiteitä",
   "version": "1.0.0",
-  "author": "Metsän Otus>",
+  "author": "Metsän Otus",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/otsolap/Metsan_Otus"
+    "url": "https://github.com/otsolap/Metsan_Otus",
+    "private": true
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
