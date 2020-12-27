@@ -71,7 +71,7 @@ class VlogIndex extends React.Component {
 
     const { data } = this.props
     const { currentPage, numVlogPages } = this.props.pageContext
-    const vlogSlug = '/vlogit/'
+    const vlogSlug = '/vlogi/'
     const isFirst = currentPage === 1
     const isLast = currentPage === numVlogPages
     const prevPage = currentPage - 1 === 1 ? vlogSlug : vlogSlug + (currentPage - 1).toString()

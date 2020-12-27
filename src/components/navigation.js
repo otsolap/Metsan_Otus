@@ -12,7 +12,7 @@ const MenuItems = [
     title: "Metsän Otus"
   },
   {
-    path: "/vlogit",
+    path: "/vlogi",
     title: "Vlogi"
   },
   {
