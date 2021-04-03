@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Dark Souls Remastered - Peliarvostelu - Oden Pelihallissa
+title: Dark Souls Remastered - Peliarvostelu
 slug: /vlogit/darksouls-peliarvostelu
 date: 2018-06-19 14:00
 description: this is the fifth test post

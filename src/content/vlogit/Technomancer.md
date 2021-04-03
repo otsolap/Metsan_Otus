@@ -1,7 +1,7 @@
 ---
 template: vlog-post
-title: Technomancer - Peliarvostelu - Oden Pelihallissa
-slug: /vlogit/greedfall-peliarvostelu
+title: Technomancer - Peliarvostelu
+slug: /vlogit/technomancer-peliarvostelu
 date: 2019-07-02 07:00
 description: this is the fifth test post
 featuredImage: /assets/Technomancer_OdenPelihallissa.jpg

@@ -34,6 +34,7 @@ module.exports = {
         name: `content`,
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -42,7 +43,6 @@ module.exports = {
         gfm: true,
         plugins: [
           netlifyCmsPaths,
-          `gatsby-remark-reading-time`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -71,12 +71,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        implementation: require('sass')
-      },
-    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     {
@@ -85,15 +80,15 @@ module.exports = {
         trackingId: settings.ga,
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Metsän Otus`,
         short_name: `Metsän Otus`,
         start_url: `/`,
-        background_color: `#faf7f2`,
-        theme_color: `#e39b41`,
+        background_color: `#00000`,
+        theme_color: `#006634`,
         display: `standalone`,
         icon: "static" + settings.meta.iconimage,
       },

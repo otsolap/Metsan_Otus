@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Vapaus tuntea olemaan oma itsensä - Karhukirjan saarnat
+title: Vapaus tuntea olemaan oma itsensä
 slug: /vlogit/vapaus
 date: 2020-09-13 12:15
 description: this is the sixth test post

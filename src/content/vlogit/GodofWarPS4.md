@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: God of War PS4 - Peliarvostelu - Oden Pelihallissa
+title: God of War PS4 - Peliarvostelu
 slug: /vlogit/god-of-war-ps4
 date: 2018-05-20 13:37
 description: this is the fifth test post

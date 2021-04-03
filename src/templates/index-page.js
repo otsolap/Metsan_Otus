@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
@@ -8,36 +8,63 @@ import VlogListHome from "../components/vlog-list-home"
 import SEO from "../components/seo"
 
 export const pageQuery = graphql`
-  query HomeQuery($id: String!){
-		markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        title
-        tagline
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 480, maxHeight: 380, quality: 80, srcSetBreakpoints: [960, 1440]) {
-              ...GatsbyImageSharpFluid
-            }
-            sizes {
-              src
+query HomeQuery($id: String!){
+  markdownRemark(id: { eq: $id }) {
+    id
+    html
+    frontmatter {
+      title
+      tagline
+      featuredImage {
+        childImageSharp {
+          gatsbyImageData(
+            layout: CONSTRAINED
+            width: 585
+            height: 439
+          )
+        }
+      }
+      cta {
+        ctaText
+        ctaLink
+      }
+    }
+  }
+  posts : allMarkdownRemark(
+    sort: { order: DESC, fields: [frontmatter___date] }
+    filter: { frontmatter: { template: { eq: "vlog-post" } } }
+    limit: 6
+  ) {
+    edges {
+      node {
+        id
+        excerpt(pruneLength: 250)
+        frontmatter {
+          date(formatString: "DD MMMM, YYYY")
+          slug
+          title
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(
+                layout: FIXED
+                width: 345
+                height: 260
+              )
             }
           }
-        }
-        cta {
-          ctaText
-          ctaLink
         }
       }
     }
   }
+}
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
+  const Image = frontmatter.featuredImage
+    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    : ""
   return (
     <Layout>
       <SEO />
@@ -50,15 +77,15 @@ const HomePage = ({ data }) => {
         </div>
         <div>
           {Image ? (
-            <Img
-              fluid={Image}
-              alt={frontmatter.title + ' - Featured image'}
+            <GatsbyImage
+              image={Image}
+              alt={frontmatter.title + " - Featured image"}
               className="featured-image"
             />
           ) : ""}
         </div>
       </div>
-      <VlogListHome />
+      <VlogListHome data={posts} />
     </Layout>
   )
 }

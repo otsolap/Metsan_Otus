@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Noituri-saaga - Kirja-arvostelu - Oden Kirjakerho
+title: Noituri-saaga - Kirja-arvostelu
 slug: /vlogit/noituri-2
 date: 2019-12-27 09:45
 description: this is the fourth post

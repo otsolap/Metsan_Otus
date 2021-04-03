@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Spider-Man PS4 - Peliarvostelu - Oden Pelihallissa
+title: Spider-Man PS4 - Peliarvostelu
 slug: /vlogit/spiderman-ps4
 date: 2018-12-05 12:00
 description: this is the fifth test post

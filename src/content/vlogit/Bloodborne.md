@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Bloodborne- Peliarvostelu - Oden Pelihallissa
+title: Bloodborne - Peliarvostelu
 slug: /vlogit/bloodborne-peliarvostelu
 date: 2018-05-11 14:00
 description: this is the fifth test post

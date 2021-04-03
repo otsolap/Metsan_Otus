@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Mitä Posti voi oppia Death strandingista - Sekalainen
+title: Mitä Posti voi oppia Death strandingista
 slug: /vlogit/deathstranding
 date: 2019-12-04 10:00
 description: this is the sixth test post

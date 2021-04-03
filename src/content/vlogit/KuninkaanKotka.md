@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Praedor - Kuninkaan kotka koston kukkuloilla- Kirja-arvostelu - Oden Kirjakerho
+title: Praedor - Kuninkaan kotka koston kukkuloilla- Kirja-arvostelu
 slug: /vlogit/Praedor-esittely
 date: 2019-04-12 19:00
 description: this is the seventh test post

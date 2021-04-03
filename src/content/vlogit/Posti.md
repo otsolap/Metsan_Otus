@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Miten päivittää Posti nykyaikaan? - Oden Hunajapurkki
+title: Miten päivittää Posti nykyaikaan?
 slug: /vlogit/posti-v2
 date: 2019-12-04 10:15
 description: this is the sixth test post

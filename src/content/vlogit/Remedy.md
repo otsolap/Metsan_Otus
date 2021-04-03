@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Pelimarkkinat ja Remedy - Oden Hunajapurkki
+title: Pelimarkkinat ja Remedy
 slug: /vlogit/remedy-2018
 date: 2018-02-15 14:00
 description: this is the sixth test post

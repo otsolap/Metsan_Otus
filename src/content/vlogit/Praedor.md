@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Tervetuloa Jaconiaan! Praedor esittely - Kirja-arvostelu - Oden Kirjakerho
+title: Tervetuloa Jaconiaan! Praedor esittely - Kirja-arvostelu
 slug: /vlogit/Praedor-esittely
 date: 2018-07-18 15:00
 description: this is the seventh test post

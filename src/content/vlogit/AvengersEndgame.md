@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title:  Avengers Endgame - Elokuva-arvostelu - Karhuteatteri
+title:  Avengers Endgame - Elokuva-arvostelu
 slug: /vlogit/avengers-endgame
 date: 2019-05-01 09:00
 description: this is the fifth test post

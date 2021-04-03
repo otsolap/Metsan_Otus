@@ -24,10 +24,11 @@ export const vlogListQuery = graphql`
 						title
 						featuredImage {
 							childImageSharp {
-								fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  width: 345
+                  height: 260
+                )
 							}
 						}
           }

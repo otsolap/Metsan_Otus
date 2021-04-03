@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title: Nopeita ajatuksia Google Stadiasta.- Oden Hunajapurkki
+title: Nopeita ajatuksia Google Stadiasta
 slug: /vlogit/stadia
 date: 2019-03-25 10:15
 description: this is the sixth test post
