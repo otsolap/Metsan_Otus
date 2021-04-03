@@ -5,7 +5,7 @@ slug: /vlogit/pelimarkkinat-2019
 date: 2019-02-27 10:15
 description: this is the sixth test post
 featuredImage: /assets/Pelimarkkinat_Hunajapurkki.png
-tags: ["yhteiskunta", "videopelit", "sijoittaminen"]
+tags: ["Sijoittaminen"]
 ---
 Tämän videon tarkoitus on käsitellä pelaamisen ja varsinkin pc ja konsolipelaamisen muuttumista uusien jakelupalveluiden ja peligenrejen myötä. Käsittelen videossa videopelialustojen kasvua, mahdollista videopelien suoratoistopalveluiden kasvua ja samalla tuumailen, että tuleeko pelien digitaalinen muoto heikentämään pelaajien intohimoa pelaamisen harrastamiseenn. Aloitetaan video kertaamalla, miten pelimarkkinoilla meni viimevuonna osakemaailmassa.
  

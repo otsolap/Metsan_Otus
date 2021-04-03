@@ -5,7 +5,7 @@ slug: /vlogit/avengers-endgame
 date: 2019-05-01 09:00
 description: this is the fifth test post
 featuredImage: /assets/AvengersEndgameKarhuteatteri.jpg
-tags: ["elokuva-arvostelu"]
+tags: ["Elokuva-arvostelu"]
 ---
 Avengers Endgame on oman luokkansa Kuninkaan Paluu.
 

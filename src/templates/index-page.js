@@ -40,9 +40,10 @@ query HomeQuery($id: String!){
         id
         excerpt(pruneLength: 250)
         frontmatter {
-          date(formatString: "DD MMMM, YYYY")
+          date(formatString: "DD MMMM, YYYY", locale: "fi")
           slug
           title
+          tags
           featuredImage {
             childImageSharp {
               gatsbyImageData(
@@ -79,7 +80,7 @@ const HomePage = ({ data }) => {
           {Image ? (
             <GatsbyImage
               image={Image}
-              alt={frontmatter.title + " - Featured image"}
+              alt={frontmatter.title}
               className="featured-image"
             />
           ) : ""}

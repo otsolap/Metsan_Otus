@@ -5,7 +5,7 @@ slug: /vlogit/dyyni-kirja-arvostelu
 date: 2020-06-14 16:00
 description: this is the seventh test post
 featuredImage: /assets/DyyniKirjakerho.jpg
-tags: ["kirja-arvostelu", "Dyyni"]
+tags: ["Kirja-arvostelu"]
 ---
 >”En saa pelätä.
 >Pelko on mielen tappaja. Pelko on pikku kuolema, joka tuo täydellisen sammumisen.

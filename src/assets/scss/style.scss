@@ -151,11 +151,7 @@
 	padding: 16px;
 	border: 1px ridge #050905;
 	background-color: #05090b;
-	box-shadow: 0 5px 10px #111;
-	border-radius: 12px;
-	transition: box-shadow .3s linear;
 	.featured-image {
-		border-radius: 12px;
 		img {
 			display: block;
 			margin: 0;
@@ -171,7 +167,6 @@
 	}
 	&:hover {
 		border: 1px ridge #faf7f2;
-		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
 		.title {
 			color: var(--button-alternate-color);
 		}
@@ -189,9 +184,6 @@
 		.post-content {
 			padding: 16px;
 			margin-top: 0;
-		}
-		.featured-image {
-			border-radius: 12px 12px 0 0;
 		}
 	}
 }
@@ -215,6 +207,8 @@
 @media (max-width: $breakpoint-sm) {
 	.post-card .featured-image {
 		min-height: 300px;
+		// GATSBY-IMAGE WIDTH BUGAA MOBIILISSA, LAASTARI RATKAISU.
+		max-width: 280px;
 	}
 }
 article figure {
@@ -239,20 +233,7 @@ article iframe {
 article img {
 	max-width: 100%;
 }
-.vlog-post-content {
-	max-width: 70ch;
-	margin: 0 auto;
-	padding: 20px;
-	line-height: 1.5;
-	font-size: 20px;
-}
 
-.vlog-post {
-	.featured-image {
-		min-height: 50vh;
-		border-radius: 12px;
-	}
-}
 // Buttons
 .button {
 	--padding: 20px;
@@ -262,7 +243,6 @@ article img {
 	padding: var(--padding) calc(var(--padding) * 2);
 	background-color: var(--button-alternate-color);
 	color: var(--button-color);
-	border-radius: 12px;
 	text-decoration: none;
 	appearance: none;
 	border: none;
@@ -275,10 +255,8 @@ article img {
 	}
 	&.-outline {
 		color: var(--primary-color);
-		box-shadow: 0 0 1px #fff(0, 0, 0, 0.6);
 		background: #faf7f2;
 		&:hover {
-			box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
 			background: #f2f2f2;
 		}
 	}
@@ -296,8 +274,47 @@ article img {
 	}
 }
 
+// VLOGS
+
 .vlog-tag {
+	color: var(--primary-color);
+	display: inline-flex;
+}
+
+.tag-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 1;
+	@media (max-width: $breakpoint-sm) {
+		flex-direction: column;
+		align-items: center;
+		.tag-button {
+			margin-top: .5rem;
+			margin-bottom: .5rem;
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+
+.vlog-post time {
 	padding: 1rem;
+}
+
+.vlog-post-content {
+	max-width: 70ch;
+	margin: 0 auto;
+	padding: 20px;
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+.vlog-post {
+	.featured-image {
+		min-height: 50vh;
+		border-radius: 12px;
+	}
 }
 
 // Page

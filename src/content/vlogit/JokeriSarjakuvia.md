@@ -5,7 +5,7 @@ slug: /vlogit/4-jokeria
 date: 2019-11-15 00:00
 description: this is the seventh test post
 featuredImage: /assets/4JokeriSarjakuvaaKirjakerho.jpg
-tags: ["sarjakuva-arvostelu", "Batman", "Jokeri"]
+tags: ["Sarjakuva-arvostelu"]
 ---
 Wow, siis wow…. Jokeri elokuva saavutti miljardin kansainvälisessä lipunmyynnissä. Kuka olisikaan voinut uskoa, että Kauhea Kankkunen-elokuvatrilogian ohjaaja Todd Philips ohjaisi vuoden sarjakuvaelokuvan, jolla ei ole mitään tekemistä itse sarjakuvien kanssa! Senpä takia aion suositella neljä sarjakuvaa luettavaksi, jossa vihan harlekiini esiintyy.
 

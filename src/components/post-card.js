@@ -9,16 +9,15 @@ const PostCard = ({ data }) => (
       (
         <Link to={data.frontmatter.slug}>
           <GatsbyImage
-            fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
-            objectFit="cover"
-            objectPosition="50% 50%"
-            alt={data.frontmatter.title + ' - Featured image'}
+            image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+            alt={data.frontmatter.title}
             className="featured-image"
           />
         </Link>
       ) : ""
     }
     <div className="post-content">
+      {data.frontmatter.tags.map(tag => <span className="vlog-tag">{tag}</span>)}
       <h2 className="title"><Link to={data.frontmatter.slug}>{data.frontmatter.title}</Link></h2>
       <p className="meta"><time>{data.frontmatter.date}</time></p>
     </div>
@@ -26,3 +25,4 @@ const PostCard = ({ data }) => (
 )
 
 export default PostCard
+

@@ -5,7 +5,7 @@ slug: /vlogit/batman-damned
 date: 2019-10-03 00:00
 description: this is the seventh test post
 featuredImage: /assets/BatmanDamnedKirjakerho.jpg
-tags: ["sarjakuva-arvostelu", "Batman", "Jokeri"]
+tags: ["Sarjakuva-arvostelu"]
 ---
 Jokeri-elokuva saa tällä viikolla ensi-iltansa. Helsingin Sanomat ja muut roskalehdet ovat pelotelleet lukijoitaan mahdollisista joukkoammuskeluista, vaikka ja sanokaa perässäni: Väkivaltaisten elokuvien ja videopelien vaikutusta oikean maailman hirmutekoihin ei vieläkään ole löydetty yhteyksiä.
 Itseäni pelottaa paljon enemmän Finnkinon ja muiden leffateattereiden naurettavat hinnat. Siis 19 vitun euroa jostain 2 tunnin elokuvasta salissa, joka on täynnä mässääjiä, hölösuita ja haisevia ihmisiä? Ei kiitos. Tiedättekö mihin voisitte laittaa kaksikymppiä ja saada siitä paljon enempi irti? Oi kyllä, miten olisi Jokeri-aiheinen sarjakuva! Joten paholaisen pakanat, tehkää jokapäiväinen riittiinne jumalallenne, sillä on meidän aika astua Gothamin pimeään maailmaan!

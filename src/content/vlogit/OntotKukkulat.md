@@ -5,7 +5,7 @@ slug: /vlogit/ontot-kukkulat
 date: 2019-10-03 00:00
 description: this is the seventh test post
 featuredImage: /assets/OntotKukkulatOdenKirjakerho.jpg
-tags: ["sarjakuva-arvostelu", "Petri Hiltunen", "fantasia"]
+tags: ["Sarjakuva-arvostelu"]
 ---
 On vuosi 2019 ja vaikuttaisi siltä, että elämme sarjakuvien kultaista-aikaa. Kapteeni Marvel mirrinsä voimin alisti internetin röllipeikot. Avengers Endgame rikkoi maailman ennätyksiä ja kukisti Avatarin maailmanlaajuisessa lippumyynnissä. Tuleva Jokeri elokuva on jo ennakkoon saanut rakkautta ja vastusta niin sarjakuvafaneilta kuin elokuva kriitikoilta.  Helsingin Sanomat jopa kehtaavat pohdiskella: Tulevatko tylsistyneet joodelilaiset harjoittamaan joukkoampumista elokuvateattereissa, jonkun vitun harlekiinin takia?
 

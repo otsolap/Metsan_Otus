@@ -5,7 +5,7 @@ slug: /vlogit/boundbyflame-peliarvostelu
 date: 2018-05-01 14:00
 description: this is the fifth test post
 featuredImage: /assets/BoundbyFlamePelihallissa.jpg
-tags: ["peliarvostelu", "toiminta rpg", "Spiders"]
+tags: ["Peliarvostelu"]
 ---
 Mainitsin edellisessä videossani peliteollisuuden katoavasta keskimarkkinasta. Siksi haluan tuoda esille ranskalaisen Spiders peliyrityksen, millä uskon olevan mahdollisuus nousta Biowaren-laatuiselle tasolle. Tutustuin Bound by Flameen 2014, kun fantasiaroolipeli Dragon Age Inquisitionin odotusta piti ruokkia jollain väliaikaisella pelillä. Mitä tapahtuikaan, oli, että löysin aidosti hyvän toiminta roolipelin ja haluan lämpimästi suositella Bound by Flamea kaikille.
 Vertial on maalmanloppua häämöttävä fantasiamaailma, missä kuolleiden armeija on voiton partaalla. Haltiat, velhot ja palkkasotilaat ovat Vertialin viimeinen mahdollisuus. Pelaaja ottaa haltuun Vapaiden meikkojen palkkasotilaan Vulcanin.Vulcanista tulee Vertialin mahdollinen pelastaja, kun Punaisten kirjailijoiden velhot munaavat rituaalinsa ja Vulcan yllätys yllätys, saa juuri tulen demonin kämppiksekseen päähänsä.Kuka olisikaan arvannut, että roomalaisen seppien, tulivuorten sekä tulen jumalan nimensä saanut saa tulidemonin sisäänsä.

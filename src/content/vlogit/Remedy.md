@@ -5,7 +5,7 @@ slug: /vlogit/remedy-2018
 date: 2018-02-15 14:00
 description: this is the sixth test post
 featuredImage: /assets/Remedy.jpg
-tags: ["yhteiskunta", "videopelit", "sijoittaminen"]
+tags: ["Sijoittaminen"]
 ---
 Hei kaikki, Inderesin analyytikko Atte Riikola kirjoitti 4. tammikuuta artikkelin Pelialan arvostustasoista ja samalla teki videon aiheesta Verneri Pulkkisen kanssa. Video keskittyi suomalaiseen pelifirmaan Remedyyn, joka listautui pörssiin viimevuoden kesänä.
 

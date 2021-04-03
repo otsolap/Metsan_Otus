@@ -6,34 +6,13 @@ import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 import Layout from "../components/layout"
 import SEO from '../components/seo';
 
-const Pagination = (props) => (
-  <div className="pagination -post">
-    <ul>
-      {(props.previous && props.previous.frontmatter.template === 'vlog-post') && (
-        <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
-            <p><span className="icon -left"><RiArrowLeftLine /></span> Previous</p>
-            <span className="page-title">{props.previous.frontmatter.title}</span>
-          </Link>
-        </li>
-      )}
-      {(props.next && props.next.frontmatter.template === 'vlog-post') && (
-        <li>
-          <Link to={props.next.frontmatter.slug} rel="next">
-            <p>Next <span className="icon -right"><RiArrowRightLine /></span></p>
-            <span className="page-title">{props.next.frontmatter.title}</span>
-          </Link>
-        </li>
-      )}
-    </ul>
-  </div>
-)
-
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
+  const Image = frontmatter.featuredImage
+    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    : ""
   const { previous, next } = pageContext
 
   let props = {
@@ -52,14 +31,13 @@ const Post = ({ data, pageContext }) => {
       <article className="vlog-post">
         <header className="featured-banner">
           <section className="article-header">
+            {frontmatter.tags.map(tag => <a href={`/tagit/${tag}`} className="vlog-tag">{tag}</a>)}
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
           </section>
           {Image ? (
             <GatsbyImage
               image={Image}
-              //objectFit="cover"
-              //objectPosition="50% 50%"
               alt={frontmatter.title}
               className="featured-image"
             />
@@ -71,8 +49,6 @@ const Post = ({ data, pageContext }) => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-      <h3>Tagit </h3>
-      {frontmatter.tags.map(tag => <span className="vlog-tag">{tag}</span>)}
       {(previous || next) && (
         <Pagination {...props} />
       )}
@@ -81,6 +57,34 @@ const Post = ({ data, pageContext }) => {
 }
 
 export default Post
+
+
+const Pagination = (props) => (
+
+  <div className="pagination -post">
+    <ul>
+      {(props.previous && props.previous.frontmatter.template === 'vlog-post') && (
+        <li>
+          <Link to={props.previous.frontmatter.slug} rel="prev">
+
+            <p><span className="icon -left"><RiArrowLeftLine /></span> Edellinen</p>
+            <span className="page-title">{props.previous.frontmatter.title}</span>
+          </Link>
+        </li>
+      )}
+      {(props.next && props.next.frontmatter.template === 'vlog-post') && (
+        <li>
+          <Link to={props.next.frontmatter.slug} rel="next">
+            <p>Seuraava <span className="icon -right"><RiArrowRightLine /></span></p>
+            <span className="page-title">{props.next.frontmatter.title}</span>
+          </Link>
+        </li>
+      )}
+    </ul>
+  </div>
+)
+
+
 
 export const pageQuery = graphql`
   query VlogPostQuery($id: String!) {

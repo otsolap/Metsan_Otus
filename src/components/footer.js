@@ -3,6 +3,7 @@ import {
   TiSocialTwitter,
   TiSocialInstagram,
   TiSocialYoutube,
+  TiRss,
 } from "react-icons/ti"
 
 
@@ -23,20 +24,29 @@ const Footer = () => (
           </a>
           <a
             target="_blank"
-            href="https://twitter.com/MetsanOde"
-            rel="noopener noreferrer"
-          >
-            <span className="icon-container" id="tw-icon">
-              <TiSocialTwitter className="footer-social-icon" />
-            </span>
-          </a>
-          <a
-            target="_blank"
             href="https://www.instagram.com/MetsanOtus/"
             rel="noopener noreferrer"
           >
             <span className="icon-container" id="ig-icon">
               <TiSocialInstagram className="footer-social-icon" />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://open.spotify.com/show/1fmuLQLuEoSOH6hoVnvqEz?si=dY7h8ZJ0RRao4AZoBJnjCA&nd=1"
+            rel="noopener noreferrer"
+          >
+            <span className="icon-container" id="rss-icon">
+              <TiRss className="footer-social-icon" />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://twitter.com/MetsanOde"
+            rel="noopener noreferrer"
+          >
+            <span className="icon-container" id="tw-icon">
+              <TiSocialTwitter className="footer-social-icon" />
             </span>
           </a>
         </div>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
-
+import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
 import SEO from "../components/seo"
@@ -22,6 +22,7 @@ export const vlogListQuery = graphql`
             date(formatString: "DD MMMM, YYYY", locale: "fi")
             slug
 						title
+            tags
 						featuredImage {
 							childImageSharp {
                 gatsbyImageData(
@@ -34,6 +35,9 @@ export const vlogListQuery = graphql`
           }
         }
       }
+      group(field: frontmatter___tags) {
+        fieldValue
+      }
     }
   }
 `
@@ -43,7 +47,7 @@ const Pagination = (props) => (
       {!props.isFirst && (
         <li>
           <Link to={props.prevPage} rel="prev">
-            <span className="icon -left"><RiArrowLeftLine /></span> Previous
+            <span className="icon -left"><RiArrowLeftLine /></span> Edellinen
           </Link>
         </li>
       )}
@@ -60,7 +64,7 @@ const Pagination = (props) => (
       {!props.isLast && (
         <li>
           <Link to={props.nextPage} rel="next">
-            Next <span className="icon -right"><RiArrowRightLine /></span>
+            Seuraava <span className="icon -right"><RiArrowRightLine /></span>
           </Link>
         </li>
       )}
@@ -69,7 +73,6 @@ const Pagination = (props) => (
 )
 class VlogIndex extends React.Component {
   render() {
-
     const { data } = this.props
     const { currentPage, numVlogPages } = this.props.pageContext
     const vlogSlug = '/vlogi/'
@@ -93,18 +96,32 @@ class VlogIndex extends React.Component {
       nextPage
     }
 
+
     return (
       <Layout className="vlog-page">
         <SEO
           title={"Vlogsivu" + currentPage + " of " + numVlogPages}
           description={"Tuoreimmat mielipiteet " + currentPage + " of " + numVlogPages}
         />
-        <h1>vlog</h1>
+        <h1>Vlog</h1>
+        <div classname="row">
+          <h2>Kategoriat</h2>
+          <div className="tag-container col-1 sm-2 lg-3">
+            {data.allMarkdownRemark.group.map(tag => (
+              <button className="tag-button button" key={tag.fieldValue}>
+                <Link to={`/tagit/${kebabCase(tag.fieldValue)}/`}>
+                  {tag.fieldValue}
+                </Link>
+              </button>
+            ))}
+          </div>
+        </div>
+        <h2>Kaikki Vlogit</h2>
         <div className="grids col-1 sm-2 lg-3">
           {posts}
         </div>
         <Pagination {...props} />
-      </Layout>
+      </Layout >
     )
   }
 }

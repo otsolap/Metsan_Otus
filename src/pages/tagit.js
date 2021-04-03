@@ -1,7 +1,5 @@
 import React from "react"
-// Utilities
 import kebabCase from "lodash/kebabCase"
-// Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 const TagsPage = ({
@@ -15,11 +13,11 @@ const TagsPage = ({
   <div>
     <Helmet title={title} />
     <div>
-      <h1>Tagit</h1>
+      <h1>Kaikki aihetunnisteet eli tagit</h1>
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/tagit/${kebabCase(tag.fieldValue)}/`}>
+            <Link to={`/vlogit/tagit/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} ({tag.totalCount})
             </Link>
           </li>

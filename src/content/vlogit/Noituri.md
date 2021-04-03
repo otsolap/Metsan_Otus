@@ -5,7 +5,7 @@ slug: /vlogit/noituri-1
 date: 2019-12-27 09:00
 description: this is the fourth post
 featuredImage: /assets/Noituri_1_Kirjakerho.jpg
-tags: ["kirja-arvostelu", "noituri"]
+tags: ["Kirja-arvostelu"]
 ---
 Tervehdys Kurwat! 
 

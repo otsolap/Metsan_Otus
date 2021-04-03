@@ -5,7 +5,7 @@ slug: /vlogit/posti-v2
 date: 2019-12-04 10:15
 description: this is the sixth test post
 featuredImage: /assets/PostiHunajapurkki.png
-tags: ["yhteiskunta",]
+tags: ["Yhteiskunta"]
 ---
 Miten päivittää Posti nykyaikaan? Kerrataan vielä mitä Postille on tapahtunut viimeiset vuodet, mitä muutos strategiaa Posti harjoittaa, ja mistä oikein loppuvuoden Posti-lakosta on kyse. Posti on viimeisen vuosikymmenen aikana menettänyt uskottavuuttansa, koska hallituksen omistama lafka ei ole tehnyt tarpeeksi rohkeita päätöksiä päivittääkseen palvelualaansa. Siinä samalla lehtien, nettitilauksien ja muiden pakettien kuljetus on vapautunut markkinoilla, joka on johtanut koko Postin merkityksen kyseenalaistamiseen. Postin rooli on supistunut lähes puhtaasti mainosjakeluun, jossa yksityiset yritykset maksavat huonosta mainonnasta ja työntekijäraukat joutuvat raahaamaan kilokaupalla aivan umpisurkeita mainoksia, ihmisten asuntoihin ilman lupia kyselemättä. 
 
