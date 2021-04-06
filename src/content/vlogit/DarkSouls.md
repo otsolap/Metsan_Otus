@@ -5,7 +5,7 @@ slug: /vlogit/darksouls-peliarvostelu
 date: 2018-06-19 14:00
 description: this is the fifth test post
 featuredImage: /assets/DarkSoulsOdenPelihallissa.png
-tags: ["Peliarvostelu"]
+tags: ["Pelihalli"]
 ---
 Dark Souls on noussut pelaajien suosioon onnistumalla tuomaan luolastoroolipeli-sarjan takaisin uudella jännittävällä tavalla. Ei tämä tietenkään vedä vertoja suomaiseen Legend of Grimrock pelisarjaan, mutta hei, kyllä tämä peli kelpaa ihan hevonvitusti verrattuna muihin nykyisiin toimintaroolipeleihin.
 Pelaajille tarjotaan useita mahdollisuuksia hahmojensa valitsemiseen ja kehitämiseen, kuten esimerkiksi mm. seikkailija, barbaari, pappi, ristiritari, ninja Gandalf, metsästäjä, varas, mustan magian noita, pyromantikki jne. Korkea-fantasia asetelmaan pakattu Lordran, pistää epäkuolleet seikkailijat taistelemaan henkensä puolesta linnoissa, jumalten palatseissa, jättiläisten hautakammioissa, demonien valtakunnassa ja monissa muissa mutapaskafantasian tarjoamissa alueissa, joissa taistelet mustia ritareita, epäkuolleita jättiläisiä, lohikäärmeitä, pahkasikoja sekä pääset pahoittamaan Timo Soinin mieltä viemällä keskiaikaisen Lordranin eteenpäin aborttioikeuksien kanssa.

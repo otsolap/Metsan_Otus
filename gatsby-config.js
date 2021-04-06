@@ -15,10 +15,19 @@ const netlifyCmsPaths = {
   },
 }
 
-const settings = require("./src/util/site.json")
+const settings = require('./config.js');
 
 module.exports = {
-  siteMetadata: settings.meta,
+  siteMetadata: {
+    title: settings.title,
+    description: settings.description,
+    siteUrl: settings.siteUrl,
+    image: settings.image,
+    iconimage: settings.iconimage,
+    youtube: settings.youtube,
+    twitter: settings.twitter,
+    instagram: settings.instagram,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,6 +41,19 @@ module.exports = {
       options: {
         path: `${__dirname}/src/content/`,
         name: `content`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingId: [
+          settings.gtag,
+        ],
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
       },
     },
     `gatsby-plugin-image`,
@@ -74,12 +96,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: settings.ga,
-      },
-    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -90,17 +106,17 @@ module.exports = {
         background_color: `#00000`,
         theme_color: `#006634`,
         display: `standalone`,
-        icon: "static" + settings.meta.iconimage,
+        icon: "static" + settings.iconimage,
       },
     },
-    // this plugin enables Progressive Web App + Offline functionality
+    // Kuukkeli hyväkksyy  Progressive Web App + Offline functionality
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `Poppins`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `source sans pro\:300,400,400i,700` // voit asettaa fontin koot ja tyylit tässä.
         ],
         display: 'swap'
       }

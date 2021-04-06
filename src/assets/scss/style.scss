@@ -1,18 +1,12 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
-
-// .primary-container {
-// 	display: grid;
-// 	grid-template-rows: 60px auto 60px;
-// 	min-height: 100vh;
-// }
-.primary-container main {
-	min-height: calc(100vh - 60px - 81px);
-}
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "utility";
+// Libraries
+@import "lib/prism-default";
 
 /* Header */
-
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -21,7 +15,27 @@
 	background: var(--header-bg);
 	padding: 30px 20px;
 }
+
+// MIKSI TÄÄ EI TOIMI KUNNOLLA SITE-NAVIGATION SISÄLLÄ?
+ul li ul {
+	background: orange;
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 2rem;
+	left: 0;
+	display: none;
+}
+
 .site-navigation {
+	.sub-items,
+	.dropdown,
+	.show.dropdown {
+		display: inline-block;
+	}
+
 	ul {
 		list-style: none;
 		margin: 0;
@@ -41,63 +55,26 @@
 	a[aria-current="page"] {
 		color: rgba(255, 255, 255, 1);
 	}
-	.menu-trigger {
-		display: none;
-		font-size: 24px;
-		background: none;
-		border: none;
-		color: white;
-		padding: 0;
-		cursor: pointer;
-	}
-	@media (max-width: $breakpoint-lg) {
-		.menu-trigger,
-		.icon-menu-line {
-			display: flex;
-		}
-
-		.icon-menu-close {
-			display: none;
-		}
-		.menu-trigger.is-active {
-			.icon-menu-line {
-				display: none;
-			}
-			.icon-menu-close {
-				display: flex;
-			}
-		}
-		.menu-trigger.is-active + ul {
-			display: block;
-		}
-		ul {
-			display: none;
-			position: absolute;
-			right: 0;
-			top: 100%;
-			z-index: 1;
-			background: #006634;
-			width: 100%;
-			max-width: 320px;
-			border-radius: 0 0 0 12px;
-			overflow: hidden;
-		}
-		ul li {
-			display: block;
-			margin-left: 0;
-		}
-		a {
-			display: block;
-			padding: 20px;
-		}
-	}
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 1240px;
-	padding: 0 20px;
+/* container */
+.primary-container {
+	background-color: #000000;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+span,
+p {
+	color: #fff;
+}
+
 .site-logo {
 	font-weight: bold;
 	a {
@@ -108,7 +85,7 @@
 		}
 	}
 	@media (max-width: $breakpoint-lg) {
-		font-size: 20px;
+		font-size: 2.5rem;
 	}
 }
 .home-banner {
@@ -141,12 +118,7 @@
 		}
 	}
 }
-.home-posts {
-	.grids {
-		padding-bottom: 30px;
-	}
-	padding-bottom: 100px;
-}
+
 .post-card {
 	padding: 16px;
 	border: 1px ridge #050905;
@@ -187,6 +159,7 @@
 		}
 	}
 }
+
 .article-header {
 	padding: 35px 0;
 	text-align: center;
@@ -339,6 +312,7 @@ article img {
 		line-height: 1.5;
 	}
 }
+
 .contact-form {
 	margin-top: 36px;
 	label {
@@ -363,6 +337,8 @@ article img {
 		min-height: 200px;
 	}
 }
+
+/* FOOTER */
 .site-footer {
 	display: flex;
 	align-items: center;
@@ -385,6 +361,8 @@ article img {
 		margin-left: .5rem;
 	}
 }
+
+/* PAGINATION  */
 
 .pagination {
 	text-align: center;
@@ -424,7 +402,7 @@ article img {
 			text-align: right;
 		}
 		p {
-			font-size: 14px;
+			font-size: 16px;
 			margin: 0 0 5px;
 			color: #faf7f2;
 		}
@@ -457,8 +435,3 @@ article img {
 		}
 	}
 }
-
-@import "utility";
-
-// Libraries
-@import "lib/prism-default";

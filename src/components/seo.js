@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
@@ -10,11 +9,10 @@ const SEO = ({ title, description, image, article }) => {
 
   const {
     defaultTitle,
-    titleTemplate,
     defaultDescription,
     siteUrl,
     defaultImage,
-    twitterUsername,
+    twitter,
   } = site.siteMetadata
 
   const seo = {
@@ -25,8 +23,8 @@ const SEO = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
-      <html lang="en-US"/>
+    <Helmet title={seo.title}>
+      <html lang="en-US" />
       <link rel="alternate" href={seo.url} hreflang="en-us" />
       <link rel="alternate" href={seo.url} hreflang="en" />
       <link rel="alternate" href={seo.url} hreflang="x-default" />
@@ -47,8 +45,8 @@ const SEO = ({ title, description, image, article }) => {
 
       <meta name="twitter:card" content="summary_large_image" />
 
-      {twitterUsername && (
-        <meta name="twitter:creator" content={twitterUsername} />
+      {twitter && (
+        <meta name="twitter:creator" content={twitter} />
       )}
 
       {seo.title && <meta name="twitter:title" content={seo.title} />}
@@ -64,12 +62,6 @@ const SEO = ({ title, description, image, article }) => {
 
 export default SEO
 
-SEO.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-  article: PropTypes.bool,
-}
 
 SEO.defaultProps = {
   title: null,
@@ -83,11 +75,10 @@ const query = graphql`
     site {
       siteMetadata {
         defaultTitle: title
-        titleTemplate
         defaultDescription: description
         siteUrl: siteUrl
         defaultImage: image
-        twitterUsername
+        twitter
       }
     }
   }

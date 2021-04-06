@@ -91,7 +91,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Make tag pages
   tags.forEach(tag => {
     createPage({
-      path: `/vlogi/tagit/${_.kebabCase(tag.fieldValue)}/`,
+      path: `/vlogi/${_.kebabCase(tag.fieldValue)}/`,
       component: tagList,
       context: {
         tag: tag.fieldValue,

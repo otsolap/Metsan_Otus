@@ -5,7 +5,7 @@ slug: /vlogit/greedfall-peliarvostelu
 date: 2020-06-14 14:00
 description: this is the fifth test post
 featuredImage: /assets/GreedfallPelihallissa.jpg
-tags: ["Peliarvostelu"]
+tags: ["Pelihalli"]
 ---
 >Viimein ja vihdoin meillä on peli, joka tuo eurooppalaisen siirtokunta-ajan kunniaan! 
 >Ajat, jolloin eurooppalaiset valloittivat uusia mantereita ja nostivat alkukansojen elintasoa….  Se on hyvä alku, mutta mikä on parasta elämässä? 

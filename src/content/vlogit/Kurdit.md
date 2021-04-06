@@ -5,7 +5,7 @@ slug: /vlogit/kurdit
 date: 2019-10-30 07:28
 description: this is the sixth test post
 featuredImage: /assets/KurditSaarnakirja.jpg
-tags: ["Yhteiskunta"]
+tags: ["Saarnakirja"]
 ---
 Ah Donald John Trump. Mies. Oranssioranki. Länsimaiden pelastaja. Rakkaalla taaperolla on monta nimeä. Trump, joka on naruttanut länsimaailmaa viimeiset 36 kuukautta, on taas päässyt otsikoihin. Mistä hyvästä tällä kertaa?..... Ai se N sana? Ai siis se kiel-let-ty N sana? Oi Kyllä! Trump tekee mitä Nationalistit kehtaavat: Ajattelee oman kansansa etuja ylitse muiden. Mikä pahempaa: Hän eroaa muista politiikoista pitämällä vaalilupauksistaan kiinni. 
 Trump tekee sen mistä Obama sai vaalivoittonsa vuonna 2008.  Amerikkalaiset sotilaat lähtevät hevon vittuun pois Lähi-idästä.  En voi uskoa tätä todeksi ja mikä tekee tilanteesta uskomattomamman, on oman ikäpolveni idioottimainen reaktio tähän soppaan. Mitä tapahtui milleenialaisten rauhan periaatteille? Milloin unohdimme vastustamaan turhia sotia? 

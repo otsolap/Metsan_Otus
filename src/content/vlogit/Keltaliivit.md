@@ -5,7 +5,7 @@ slug: /vlogit/keltaliivit
 date: 2019-02-04 06:30
 description: this is the sixth test post
 featuredImage: /assets/KeltaliivienVallankumousSaarna.jpg
-tags: ["Yhteiskunta"]
+tags: ["Saarnakirja"]
 ---
 Miljoonat Ranskan kansalaiset ovat osoittaneet mieltänsä joko rauhanomaisesti tai väkivaltaisesti viimeisen kolmen kuukauden aikana ympäri Ranskaa. Suurin osa videomateriaalista tulee olemaan Ranskan pääkaupungista Pariisista, jossa myös suurin osa väkivaltaisesta mellakoinnista on tapahtunut.
 

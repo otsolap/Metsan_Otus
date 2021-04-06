@@ -5,7 +5,7 @@ slug: /vlogit/conan-barbaari
 date: 2019-06-30 14:00
 description: this is the fifth test post
 featuredImage: /assets/ConanKarhuteatteri.jpg
-tags: ["Elokuva-arvostelu"]
+tags: ["Karhuteatteri"]
 ---
 Ensisilmäyksellä elokuva saattaa vaikuttaa vain kauniisti kerrotulta kostotarinalta, mutta se on paljon enemmän kuin miltä se näyttää. Conan barbaari sekoittaa fantasian, filosofian, toiminnan ja yksilökeskeisyyden. Luomalla näistä neljästä teemasta lempielokuvani kautta aikojen.
 

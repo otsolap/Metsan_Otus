@@ -1,58 +1,35 @@
 import React from "react"
 import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-
-const MenuItems = [
-  {
-    path: "/",
-    title: "Etusivu"
-  },
-  {
-    path: "/metsan-otus",
-    title: "Metsän Otus"
-  },
-  {
-    path: "/vlogi",
-    title: "Vlogi"
-  },
-  {
-    path: "/yhteydenotto",
-    title: "Ota Yhteyttä"
-  },
-]
-
-const ListLink = (props) => (<li><Link to={props.to}>{props.children}</Link></li>)
+import { Navbar, Nav, NavDropdown } from "react-bootstrap"
+const MenuSettings = require('../../config.js');
 
 
 class Navigation extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { showMenu: false }
-
-
-    this.handleToggleClick = this.handleToggleClick.bind(this);
-  }
-
-  handleToggleClick() {
-    this.setState(state => ({
-      showMenu: !state.showMenu
-    }))
-  }
-
   render() {
-    const listMenuItems = MenuItems.map((menuItem, index) =>
-      <ListLink key={index} to={menuItem.path}>{menuItem.title}</ListLink>
-    )
+    const listMenuItems = MenuSettings.MenuItems.map((path) => (
+      <Nav.Link as="li" key={path.title}>
+        <Link
+          to={path.path}
+        >
+          {path.title}
+        </Link>
+        {path.subItems && path.subItems.length > 0 ? (
+          <NavDropdown class="sub-items">
+            {path.subItems.map((subpath) => (
+              <NavDropdown.Item a href={subpath.path}>
+                {subpath.title}
+              </NavDropdown.Item>
+            ))}
+          </NavDropdown>
+        ) : null}
+      </Nav.Link>))
+
     return (
-      <nav className="site-navigation">
-        <button onClick={this.handleToggleClick} className={"menu-trigger sivun navigaatio button" + (this.state.showMenu ? " is-active" : "")}>
-          <div className="icon-menu-line"><RiMenu3Line /></div>
-          <div className="icon-menu-close"><RiCloseLine /></div>
-        </button>
+      <Navbar className="site-navigation">
         <ul>
           {listMenuItems}
         </ul>
-      </nav>
+      </Navbar >
     )
   }
 }

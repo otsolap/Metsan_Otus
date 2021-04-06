@@ -5,7 +5,7 @@ slug: /vlogit/sicario-soldado
 date: 2018-06-25 14:00
 description: this is the fifth test post
 featuredImage: /assets/SicarioKarhuteatteri.jpg
-tags: ["Elokuva-arvostelu"]
+tags: ["Karhuteatteri"]
 ---
 Sicario: Soldado jatkaa palkkamurhaaja Alejandron ja CIA Agentti Matt Graverin tarinaa meksikon kartellia vastaan, ja koska elokuva on jatko-osa. niin pitäähän panokset oltava suuremmat, koska nyt Sicarion synkän maailman urhot joutuvat taistelemaan myös Hydraa nimeltä Jihadia vastaan.
 

@@ -5,7 +5,7 @@ slug: /vlogit/conan-barbaari
 date: 2019-06-24 14:00
 description: this is the fifth test post
 featuredImage: /assets/ExcaliburKarhuteatteri.jpg
-tags: ["Elokuva-arvostelu"]
+tags: ["Karhuteatteri"]
 ---
 # Miekka on Vedetty!
 

@@ -5,7 +5,7 @@ slug: /vlogit/Praedor-esittely
 date: 2018-07-18 15:00
 description: this is the seventh test post
 featuredImage: /assets/PraedorTervetuloa_Kirjakerho.jpg
-tags: ["Kirja-arvostelu"]
+tags: ["Kirjakerho"]
 ---
 Hei kaikki Metsän Otus täällä ja tällä kertaa halusin kokeilla jotain aivan uutta.Peli tai elokuva arvostelun tai videopeli markkinasta puhumisen sijasta haluan tuoda esille suomalaisen fantasiasarjakuva ja romaanisarjan nimeltä Praedor. 
 

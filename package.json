@@ -1,7 +1,7 @@
 {
   "name": "Metsan_Otus",
   "description": "Karhumaisia mielipiteitä",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Metsän Otus",
   "license": "MIT",
   "repository": {
@@ -23,9 +23,8 @@
     "dotenv": "^8.2.0",
     "gatsby": "^3.2.1",
     "gatsby-background-image": "^1.5.0",
-    "gatsby-image": "^2.11.0",
-    "gatsby-plugin-google-analytics": "^3.1.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-google-gtag": "^3.2.0",
     "gatsby-plugin-image": "^1.2.0",
     "gatsby-plugin-manifest": "^3.1.0",
     "gatsby-plugin-netlify-cms": "^5.1.0",

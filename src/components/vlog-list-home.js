@@ -22,7 +22,7 @@ const PostMaker = ({ data }) => (
       className="button"
       to="/vlogi"
     >
-      See more<span className="icon -right"><RiArrowRightSLine /></span>
+      Katso kaikki vlogit<span className="icon -right"><RiArrowRightSLine /></span>
     </Link>
   </section>
 )

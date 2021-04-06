@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { Container, Row, Col } from 'react-bootstrap';
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
@@ -81,6 +82,16 @@ class VlogIndex extends React.Component {
     const prevPage = currentPage - 1 === 1 ? vlogSlug : vlogSlug + (currentPage - 1).toString()
     const nextPage = vlogSlug + (currentPage + 1).toString()
 
+    const tags = data.allMarkdownRemark.group.map(tag => (
+      <button className="tag-button button" key={tag.fieldValue}>
+        <Link to={`/vlogi/${kebabCase(tag.fieldValue)}/`}>
+          {tag.fieldValue}
+        </Link>
+      </button>
+    ))
+
+
+
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge =>
@@ -100,26 +111,20 @@ class VlogIndex extends React.Component {
     return (
       <Layout className="vlog-page">
         <SEO
-          title={"Vlogsivu" + currentPage + " of " + numVlogPages}
+          title={"Vlogsivu " + currentPage + " / " + numVlogPages}
           description={"Tuoreimmat mielipiteet " + currentPage + " of " + numVlogPages}
         />
         <h1>Vlog</h1>
-        <div classname="row">
+        <Row>
           <h2>Kategoriat</h2>
-          <div className="tag-container col-1 sm-2 lg-3">
-            {data.allMarkdownRemark.group.map(tag => (
-              <button className="tag-button button" key={tag.fieldValue}>
-                <Link to={`/tagit/${kebabCase(tag.fieldValue)}/`}>
-                  {tag.fieldValue}
-                </Link>
-              </button>
-            ))}
-          </div>
-        </div>
+          <Col sm={2} lg={3} className="tag-container">
+            {tags}
+          </Col>
+        </Row>
         <h2>Kaikki Vlogit</h2>
-        <div className="grids col-1 sm-2 lg-3">
+        <Col sm={2} lg={3}>
           {posts}
-        </div>
+        </Col>
         <Pagination {...props} />
       </Layout >
     )

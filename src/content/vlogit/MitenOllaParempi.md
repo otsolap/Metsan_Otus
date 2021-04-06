@@ -5,7 +5,7 @@ slug: /vlogit/miten-olla-parempi
 date: 2020-12-07 09:30
 description: this is the first test post
 featuredImage: /assets/MitenOllaParempi.jpg
-tags: ["Itsensä kehittäminen"]
+tags: ["Elämänkoulu"]
 ---
 ## Johdanto
 

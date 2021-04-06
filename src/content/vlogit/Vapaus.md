@@ -5,7 +5,7 @@ slug: /vlogit/vapaus
 date: 2020-09-13 12:15
 description: this is the sixth test post
 featuredImage: /assets/VapausSaarna.jpg
-tags: ["Itsensä kehittäminen"]
+tags: ["Saarnakirja"]
 ---
 >Katsomme maailmaa kummastellen.
 >Rakkaus ja pelko muovaavat meitä.

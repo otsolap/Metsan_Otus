@@ -5,7 +5,7 @@ slug: /vlogit/noiturisaaga
 date: 2019-12-27 09:45
 description: this is the fourth post
 featuredImage: /assets/Noituri_2_Kirjakerho.png
-tags: ["Kirja-arvostelu"]
+tags: ["Kirjakerho"]
 ---
 Saaga sai minut ajattelemaan Sapkowskin kotimaata Puolaa, varsinkin sen historiaa maailmansotien aikana.  En ole missään nimissä perehtynyt syvemmälle maailmansotien historiaan paitsi sen mitä lukio ja suositut maailmansotiin sijoittuvat elokuvat ovat minua opettaneet. 
 Nilfgaard on vastike Natsisaksalle ilman mitään epäilyksiä. Koko saagan aikana heidät kuvataan yksipuolisena pahuutena, mutta vaikka maailmanloppu kolkuttaa ovella niin pohjoisen Temerian kuningas Foltest yrittää laajentaa omaa valtakuntaansa kaappaamalla naapurivaltakuntien maita itselleen, vakuutelleen liittolaisilleen, että hänen etuudensa on yhtä kuin pohjoisen etu. 

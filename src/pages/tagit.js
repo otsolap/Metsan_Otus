@@ -17,7 +17,7 @@ const TagsPage = ({
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/vlogit/tagit/${kebabCase(tag.fieldValue)}/`}>
+            <Link to={`/vlogit/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} ({tag.totalCount})
             </Link>
           </li>

@@ -11,7 +11,7 @@ const Footer = () => (
   <footer className="site-footer">
     <div className="container">
       <div className="footer-social">
-        <div className="footer-social-text">Seuraa minua:</div>
+        <div className="footer-social-text"><p>Seuraa minua:</p></div>
         <div className="footer-social-icons">
           <a
             target="_blank"
@@ -42,7 +42,7 @@ const Footer = () => (
           </a>
           <a
             target="_blank"
-            href="https://twitter.com/MetsanOde"
+            href="https://twitter.com/MetsanOtus"
             rel="noopener noreferrer"
           >
             <span className="icon-container" id="tw-icon">
@@ -51,7 +51,7 @@ const Footer = () => (
           </a>
         </div>
       </div>
-      <div>Metsän Otus ©{new Date().getFullYear()}</div>
+      <div><p>Metsän Otus ©{new Date().getFullYear()}</p></div>
     </div>
   </footer>
 )

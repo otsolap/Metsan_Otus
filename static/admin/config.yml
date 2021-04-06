@@ -90,7 +90,7 @@ collections:
     files:
       - name: general
         label: General
-        file: "src/util/site.json"
+        file: "config.js"
         fields:
           - label: meta
             name: meta
@@ -126,7 +126,7 @@ collections:
                 label: Twitter
                 required: false
                 
-          - label: "Google Analytics"
-            name: ga
+          - label: "Google Analytics 4"
+            name: gtag
             widget: string
-            hint: "Add you tracking ID, for example UA-XXXXXXXXX-X"
+            hint: "Add you tracking ID, for example G-XXXXXXXXX-X"

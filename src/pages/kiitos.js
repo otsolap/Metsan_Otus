@@ -16,7 +16,7 @@ const Thanks = () => (
         color: "var(--primary-color)"
       }} />
       <h1>Kiitos! Viestisi on kuitattu.</h1>
-      <p>Kiitos yhteydenoton pyynnöstä. Tuleen palaamaan viestiisi heti kun ehdin.</p>
+      <p>Tuleen palaamaan viestiisi heti kun ehdin.</p>
       <Link to="/" className="button"><RiArrowLeftSLine className="icon -left" />Lets go back to Homepage</Link>
     </div>
 

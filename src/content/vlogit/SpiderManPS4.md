@@ -5,7 +5,7 @@ slug: /vlogit/spiderman-ps4
 date: 2018-12-05 12:00
 description: this is the fifth test post
 featuredImage: /assets/SpidermanPS4.jpg
-tags: ["Peliarvostelu"]
+tags: ["Pelihalli"]
 ---
 Ah New York, New York! Kaupunki, joka oli ennen rikollisuuden kahlitsema, kunnes Pormestari Ruby Giuliani, onnistui muuttamaan New Yorkista uuden Disneylandin.  New York on niin turvallinen ja vapaa kaupunki, että jopa Lontoosta on tullut vaarallisempi alue asua.  Voi kyllä ne ajat muuttuvat ja tulevaisuus osaa yllättää meidät kaikki.  Ehkä Hämiksen, Hurjapään sekä Kostajien pitäisi vaan muuttaa Lontooseen ja taistella Britannian suurinta rikollisryhmää. Lupia-tottelemattomat veronmaksajat.
 

@@ -20,7 +20,7 @@ const Tags = ({ pageContext, data }) => {
           )
         })}
       </ul>
-      <Link to="/vlogi/tagit">Takaisin Vlogi sivulle</Link>
+      <Link to="/vlogi/">Takaisin Vlogi sivulle</Link>
     </div>
   )
 }
