@@ -17,16 +17,6 @@
 }
 
 // MIKSI TÄÄ EI TOIMI KUNNOLLA SITE-NAVIGATION SISÄLLÄ?
-ul li ul {
-	visibility: hidden;
-	opacity: 0;
-	min-width: 5rem;
-	position: absolute;
-	transition: all 0.5s ease;
-	margin-top: 2rem;
-	left: 0;
-	display: none;
-}
 
 .site-navigation {
 	.sub-items,
@@ -45,14 +35,21 @@ ul li ul {
 		margin-left: 20px;
 	}
 	a {
-		color: rgba(255, 255, 255, 0.6);
+		color: var(--home-link-color);
 		text-decoration: none;
-		&:hover {
-			color: rgba(255, 255, 255, 0.8);
-		}
 	}
 	a[aria-current="page"] {
 		color: rgba(255, 255, 255, 1);
+	}
+	.dropdown-menu {
+		padding: 0;
+		background-color: var(--header-bg);
+		.dropdown-item {
+			&:hover {
+				background-color: var(--secondary-color);
+				color: rgba(255, 255, 255, 0.8);
+			}
+		}
 	}
 }
 
@@ -82,19 +79,15 @@ p {
 	color: #fff;
 }
 
-.site-logo {
+.logo {
 	font-weight: bold;
-	a {
+	color: #fff;
+	text-decoration: none;
+	&:hover {
 		color: #fff;
-		text-decoration: none;
-		&:hover {
-			color: #fff;
-		}
-	}
-	@media (max-width: $breakpoint-lg) {
-		font-size: 2.5rem;
 	}
 }
+
 .home-banner {
 	padding: 60px 0;
 	align-items: center;
@@ -147,7 +140,7 @@ p {
 	&:hover {
 		border: 1px ridge #faf7f2;
 		.title {
-			color: var(--button-alternate-color);
+			color: var(--button-color);
 		}
 	}
 	.meta {
@@ -221,7 +214,7 @@ article img {
 	display: inline-flex;
 	align-items: center;
 	padding: var(--padding) calc(var(--padding) * 2);
-	background-color: var(--button-alternate-color);
+	background-color: var(--primary-color);
 	color: var(--button-color);
 	text-decoration: none;
 	appearance: none;
@@ -230,14 +223,13 @@ article img {
 	line-height: 1;
 	transition: background .3s linear;
 	&:hover {
-		background-color: var(--button-color);
-		color: var(--button-alternate-color);
+		background-color: var(--secondary-color);
 	}
 	&.-outline {
 		color: var(--primary-color);
 		background: #faf7f2;
 		&:hover {
-			background: #f2f2f2;
+			background-color: var(--secondary-color);
 		}
 	}
 	& + .button {
@@ -255,10 +247,18 @@ article img {
 }
 
 // VLOGS
+.tag-container {
+	display: flex;
+	justify-content: center;
+}
 
 .vlog-tag {
 	color: var(--primary-color);
 	display: inline-flex;
+	&::hover {
+		background-color: var(--secondary-color);
+		color: rgba(255, 255, 255, 0.8);
+	}
 }
 
 .tag-container {

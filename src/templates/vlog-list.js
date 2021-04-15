@@ -96,7 +96,7 @@ class VlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge =>
-        <Col md={4}>
+        <Col sm={12} md={4}>
           <PostCard key={edge.node.id} data={edge.node} />
         </Col>
       )
@@ -118,12 +118,12 @@ class VlogIndex extends React.Component {
           description={"Tuoreimmat mielipiteet " + currentPage + " of " + numVlogPages}
         />
         <h1>Vlog</h1>
-        <Row>
-          <h2>Kategoriat</h2>
+        <h2>Kategoriat</h2>
+        <Row className="py-5 tag-container">
           {tags}
         </Row>
         <h2>Kaikki Vlogit</h2>
-        <Row>
+        <Row className="py-5">
           {posts}
         </Row>
         <Pagination {...props} />

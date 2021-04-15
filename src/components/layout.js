@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Container from "react-bootstrap/Container"
 
 import Header from "./header"
-import Logo from "./logo"
 import Navigation from "./navigation";
 
 import "../assets/scss/style.scss"
@@ -27,7 +26,6 @@ const Layout = ({ children, className }) => {
   return (
     <Container fluid className="px-0">
       <Header>
-        <Logo title={siteTitle} />
         <Navigation />
       </Header>
       <main className={"container " + className}>

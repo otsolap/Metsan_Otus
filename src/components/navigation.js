@@ -27,10 +27,14 @@ class Navigation extends React.Component {
       </Nav.Link>))
 
     return (
-      <Navbar className="site-navigation">
-        <ul>
-          {listMenuItems}
-        </ul>
+      <Navbar collapseOnSelect expand="md" className="site-navigation">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Brand class="logo" href="/">Metsän Otus</Navbar.Brand>
+          <ul>
+            {listMenuItems}
+          </ul>
+        </Navbar.Collapse>
       </Navbar >
     )
   }
