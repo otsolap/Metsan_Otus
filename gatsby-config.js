@@ -43,19 +43,19 @@ module.exports = {
         name: `content`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingId: [
-          settings.gtag,
-        ],
-        gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-      },
-    },
+    // {
+    // resolve: `gatsby-plugin-google-gtag`,
+    // options: {
+    //  trackingId: [
+    //   settings.gtag,
+    // ],
+    // gtagConfig: {
+    //   optimize_id: "OPT_CONTAINER_ID",
+    //   anonymize_ip: true,
+    //   cookie_expires: 0,
+    // },
+    //},
+    // },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

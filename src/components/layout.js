@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container, } from "react-bootstrap"
+import Container from "react-bootstrap/Container"
 
 import Header from "./header"
 import Logo from "./logo"
@@ -25,7 +25,7 @@ const Layout = ({ children, className }) => {
   const { siteTitle } = site.siteMetadata
 
   return (
-    <Container fluid className="px-0 primary-container">
+    <Container fluid className="px-0">
       <Header>
         <Logo title={siteTitle} />
         <Navigation />

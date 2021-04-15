@@ -1,7 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
-import { Container, Row, Col } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
@@ -95,7 +96,9 @@ class VlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge =>
-        <PostCard key={edge.node.id} data={edge.node} />
+        <Col md={4}>
+          <PostCard key={edge.node.id} data={edge.node} />
+        </Col>
       )
     let props = {
       isFirst,
@@ -117,14 +120,12 @@ class VlogIndex extends React.Component {
         <h1>Vlog</h1>
         <Row>
           <h2>Kategoriat</h2>
-          <Col sm={2} lg={3} className="tag-container">
-            {tags}
-          </Col>
+          {tags}
         </Row>
         <h2>Kaikki Vlogit</h2>
-        <Col sm={2} lg={3}>
+        <Row>
           {posts}
-        </Col>
+        </Row>
         <Pagination {...props} />
       </Layout >
     )

@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import kebabCase from "lodash/kebabCase"
 
 import Layout from "../components/layout"
 import SEO from '../components/seo';
@@ -31,7 +32,7 @@ const Post = ({ data, pageContext }) => {
       <article className="vlog-post">
         <header className="featured-banner">
           <section className="article-header">
-            {frontmatter.tags.map(tag => <a href={`/vlogi/${tag}`} className="vlog-tag">{tag}</a>)}
+            {frontmatter.tags.map(tag => <a href={`/vlogi/${kebabCase(tag)}`} className="vlog-tag">{tag}</a>)}
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
           </section>

@@ -1,7 +1,7 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "theme-variables";
 @import "defaults";
-@import "lib/css-grid-utility";
-@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import "lib/css-grid-utility";
 @import "utility";
 // Libraries
 @import "lib/prism-default";
@@ -18,7 +18,6 @@
 
 // MIKSI TÄÄ EI TOIMI KUNNOLLA SITE-NAVIGATION SISÄLLÄ?
 ul li ul {
-	background: orange;
 	visibility: hidden;
 	opacity: 0;
 	min-width: 5rem;
@@ -58,8 +57,16 @@ ul li ul {
 }
 
 /* container */
-.primary-container {
+.container {
 	background-color: #000000;
+	max-width: 1440px;
+	margin: auto;
+}
+
+footer {
+	.container {
+		background-color: var(--primary-color);
+	}
 }
 
 h1,
@@ -112,9 +119,9 @@ p {
 		border-radius: 12px;
 	}
 	@media (max-width: $breakpoint-md) {
-		padding-top: 30px;
+		//	padding-top: 30px;
 		> div:nth-child(1) {
-			padding-bottom: 30px;
+			//	padding-bottom: 30px;
 		}
 	}
 }

@@ -2,7 +2,8 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
-import { Col, Row } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 import Layout from "../components/layout"
 import VlogListHome from "../components/vlog-list-home"
@@ -71,22 +72,22 @@ const HomePage = ({ data }) => {
     <Layout>
       <SEO />
       <Row>
-        <Col sm={2} className="home-banner">
+        <Col md={6} className="home-banner">
           <div>
             <h1 className="title">{frontmatter.title}</h1>
             <p className="tagline">{frontmatter.tagline}</p>
             <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
             <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine /></span></Link>
           </div>
-          <Col sm={2}>
-            {Image ? (
-              <GatsbyImage
-                image={Image}
-                alt={frontmatter.title}
-                className="featured-image"
-              />
-            ) : ""}
-          </Col>
+        </Col>
+        <Col md={6}>
+          {Image ? (
+            <GatsbyImage
+              image={Image}
+              alt={frontmatter.title}
+              className="featured-image"
+            />
+          ) : ""}
         </Col>
       </Row>
       <VlogListHome data={posts} />

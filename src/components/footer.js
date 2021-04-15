@@ -5,11 +5,11 @@ import {
   TiSocialYoutube,
   TiRss,
 } from "react-icons/ti"
-
+import Container from "react-bootstrap/Container"
 
 const Footer = () => (
   <footer className="site-footer">
-    <div className="container">
+    <Container>
       <div className="footer-social">
         <div className="footer-social-text"><p>Seuraa minua:</p></div>
         <div className="footer-social-icons">
@@ -52,7 +52,7 @@ const Footer = () => (
         </div>
       </div>
       <div><p>Metsän Otus ©{new Date().getFullYear()}</p></div>
-    </div>
+    </Container>
   </footer>
 )
 
