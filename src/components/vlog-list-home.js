@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
 import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 import PostCard from "./post-card"
 

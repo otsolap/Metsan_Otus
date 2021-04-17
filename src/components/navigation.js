@@ -16,7 +16,7 @@ class Navigation extends React.Component {
           {path.title}
         </Link>
         {path.subItems && path.subItems.length > 0 ? (
-          <NavDropdown class="sub-items">
+          <NavDropdown class="sub-items responsive-navbar-nav">
             {path.subItems.map((subpath) => (
               <NavDropdown.Item a href={subpath.path}>
                 {subpath.title}
@@ -28,9 +28,9 @@ class Navigation extends React.Component {
 
     return (
       <Navbar collapseOnSelect expand="md" className="site-navigation">
+        <Navbar.Brand class="logo" href="/">Metsän Otus</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Navbar.Brand class="logo" href="/">Metsän Otus</Navbar.Brand>
           <ul>
             {listMenuItems}
           </ul>

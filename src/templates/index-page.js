@@ -86,6 +86,7 @@ const HomePage = ({ data }) => {
               image={Image}
               alt={frontmatter.title}
               className="featured-image"
+              objectFit="cover"
             />
           ) : ""}
         </Col>

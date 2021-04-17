@@ -1,6 +1,6 @@
 ---
 template: vlog-post
-title:  Conan Barbaari - Elokuva-arvostelu
+title:  Sicario Soldado - Elokuva-arvostelu
 slug: /vlogit/sicario-soldado
 date: 2018-06-25 14:00
 description: this is the fifth test post

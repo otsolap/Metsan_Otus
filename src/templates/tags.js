@@ -1,5 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import PostCard from "../components/post-card"
+import Col from 'react-bootstrap/Col';
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -11,12 +13,10 @@ const Tags = ({ pageContext, data }) => {
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
-          const { slug } = node.frontmatter
-          const { title } = node.frontmatter
           return (
-            <li key={slug}>
-              <Link to={slug}>{title}</Link>
-            </li>
+            <Col sm={12} md={4}>
+              <PostCard key={node.id} data={node} />
+            </Col>
           )
         })}
       </ul>
@@ -40,6 +40,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             slug
+            tags
           }
         }
       }

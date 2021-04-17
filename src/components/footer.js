@@ -33,7 +33,7 @@ const Footer = () => (
           </a>
           <a
             target="_blank"
-            href="https://open.spotify.com/show/1fmuLQLuEoSOH6hoVnvqEz?si=dY7h8ZJ0RRao4AZoBJnjCA&nd=1"
+            href="https://open.spotify.com/show/5aQQ6bUXCgddbb6rIjuuxQ"
             rel="noopener noreferrer"
           >
             <span className="icon-container" id="rss-icon">
