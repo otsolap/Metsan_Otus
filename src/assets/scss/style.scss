@@ -283,6 +283,10 @@ article img {
 	}
 }
 
+.tag-page-headers {
+	text-align: center;
+}
+
 .vlog-post time {
 	padding: 1rem;
 }
@@ -329,6 +333,7 @@ article img {
 	margin-top: 36px;
 	label {
 		color: var(--label-text);
+		width: 100%;
 	}
 	input,
 	textarea {
