@@ -6,6 +6,6 @@ tagline: Shamaani
 featuredImage: /assets/MetsanOtusLogo_Cover.png
 cta:
   ctaText: Tutustu
-  ctaLink: /metsan-otus
+  ctaLink: /vlogi
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Karhumaisia mielipiteitä

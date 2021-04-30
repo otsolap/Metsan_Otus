@@ -91,8 +91,6 @@ class VlogIndex extends React.Component {
       </button>
     ))
 
-
-
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge =>

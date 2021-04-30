@@ -5,8 +5,10 @@
  */
 // this requires the npm-package dotenv.
 let env = process.env.NODE_ENV || 'development';
-require('dotenv').config({ path: `./.env.${env}` });
+require('dotenv').config({ path: `/.env.` });
 
+
+//   path: `.env.${process.env.NODE_ENV}`,
 
 const netlifyCmsPaths = {
   resolve: `gatsby-plugin-netlify-cms-paths`,
@@ -15,18 +17,63 @@ const netlifyCmsPaths = {
   },
 }
 
-const settings = require('./config.js');
+const settings = require("./src/util/site.json")
 
 module.exports = {
   siteMetadata: {
-    title: settings.title,
-    description: settings.description,
-    siteUrl: settings.siteUrl,
-    image: settings.image,
-    iconimage: settings.iconimage,
-    youtube: settings.youtube,
-    twitter: settings.twitter,
-    instagram: settings.instagram,
+    title: settings.meta.title,
+    description: settings.meta.description,
+    siteUrl: settings.meta.siteUrl,
+    image: settings.meta.image,
+    iconimage: settings.meta.iconimage,
+    youtube: settings.meta.youtube,
+    twitter: settings.meta.twitter,
+    instagram: settings.meta.instagram,
+    // gtag: "G-DN31Z3YM6L",},
+    MenuLinks: [
+      {
+        title: `Etusivu`,
+        link: '/',
+      },
+      {
+        title: `Minusta`,
+        link: '/metsan-otus',
+      }
+      {
+        title: `Vlogi`,
+        link: `/vlogi`,
+        subMenu: [
+          {
+            title: `Kirjakerho`,
+            link: `/vlogi/kirjakerho/`,
+          },
+          {
+            title: `Elämänkoulu`,
+            link: `/vlogi/elamankoulu/`,
+          },
+          {
+            title: `Saarnakirja`,
+            link: `/vlogi/saarnakirja/`,
+          },
+          {
+            title: `Hunajapurkki`,
+            link: `/vlogi/hunajapurkki/`,
+          },
+          {
+            title: `Pelihalli`,
+            link: `/vlogi/pelihalli/`,
+          },
+          {
+            title: `Karhuteatteri`,
+            link: `/vlogi/karhuteatteri/`,
+          },
+        ],
+      },
+      {
+        link: `/yhteydenotto`,
+        title: `Ota yhteyttä`
+      },
+    ],
   },
   plugins: [
     {
@@ -47,7 +94,7 @@ module.exports = {
     // resolve: `gatsby-plugin-google-gtag`,
     // options: {
     //  trackingId: [
-    //   settings.gtag,
+    //  gtag,
     // ],
     // gtagConfig: {
     //   optimize_id: "OPT_CONTAINER_ID",
@@ -106,10 +153,10 @@ module.exports = {
         background_color: `#00000`,
         theme_color: `#006634`,
         display: `standalone`,
-        icon: "static" + settings.iconimage,
+        icon: "static" + settings.meta.iconimage,
       },
     },
-    // Kuukkeli hyväkksyy  Progressive Web App + Offline functionality
+    // Kuukkeli hyväksyy  Progressive Web App + Offline functionality
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-fonts`,

@@ -2,6 +2,58 @@ const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
 
+// Rakennetaan nettisivu
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: { fs: 'empty' },
+    resolve: {
+      alias: {
+        path: require.resolve("path-browserify")
+      },
+      fallback: {
+        fs: false,
+      }
+    }
+  })
+}
+
+// Rakennetaan dynaaminen navigaatio
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createFieldExtension, createTypes } = actions
+  createFieldExtension({
+    name: `defaultArray`,
+    extend() {
+      return {
+        resolve(source, args, context, info) {
+          if (source[info.name] == null) {
+            return []
+          }
+          return source[info.name]
+        },
+      }
+    },
+  })
+  const typeDefs = `
+    type Site implements Node {
+      siteMetadata: SiteMetadata
+    }
+    type SiteMetadata {
+      menuLinks: [MenuLinks]!
+    }
+    type MenuLinks {
+      title: String!
+      link: String!
+      subMenu: [SubMenu]
+    }
+    type SubMenu {
+      title: String
+      link: String
+    }
+  `
+  createTypes(typeDefs)
+}
+
+
 // Data layer antaa pluginssien tehdä datasta sivuja.
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
