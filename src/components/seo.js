@@ -15,7 +15,7 @@ const Seo = ({ title, description, image, article }) => {
     twitter,
   } = site.siteMetadata
 
-  const seo = {
+  const Seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
@@ -23,25 +23,25 @@ const Seo = ({ title, description, image, article }) => {
   }
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet title={Seo.title}>
       <html lang="en-US" />
-      <link rel="alternate" href={seo.url} hreflang="en-us" />
-      <link rel="alternate" href={seo.url} hreflang="en" />
-      <link rel="alternate" href={seo.url} hreflang="x-default" />
-      <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
+      <link rel="alternate" href={Seo.url} hreflang="en-us" />
+      <link rel="alternate" href={Seo.url} hreflang="en" />
+      <link rel="alternate" href={Seo.url} hreflang="x-default" />
+      <meta name="description" content={Seo.description} />
+      <meta name="image" content={Seo.image} />
 
-      {seo.url && <meta property="og:url" content={seo.url} />}
+      {Seo.url && <meta property="og:url" content={Seo.url} />}
 
       {(article ? true : null) && <meta property="og:type" content="article" />}
 
-      {seo.title && <meta property="og:title" content={seo.title} />}
+      {Seo.title && <meta property="og:title" content={Seo.title} />}
 
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
+      {Seo.description && (
+        <meta property="og:description" content={Seo.description} />
       )}
 
-      {seo.image && <meta property="og:image" content={seo.image} />}
+      {Seo.image && <meta property="og:image" content={Seo.image} />}
 
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -49,13 +49,13 @@ const Seo = ({ title, description, image, article }) => {
         <meta name="twitter:creator" content={twitter} />
       )}
 
-      {seo.title && <meta name="twitter:title" content={seo.title} />}
+      {Seo.title && <meta name="twitter:title" content={Seo.title} />}
 
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
+      {Seo.description && (
+        <meta name="twitter:description" content={Seo.description} />
       )}
 
-      {seo.image && <meta name="twitter:image" content={seo.image} />}
+      {Seo.image && <meta name="twitter:image" content={Seo.image} />}
     </Helmet>
   )
 }

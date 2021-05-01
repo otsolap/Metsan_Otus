@@ -1,13 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import NavDropdown from "react-bootstrap/NavDropdown"
 
-const MenuLinks = ({ }) => {
-  const { navMap } = useStaticQuery(query)
-  navMap.map((link) => (
+const MenuLinks = ({ navQuery }) => {
+  navQuery.map((link) => (
     <Nav.Link as="li" key={link.title}>
       <Link
         to={link.link}
@@ -42,7 +40,7 @@ class Navigation extends React.Component {
   }
 }
 
-const query = graphql`
+const navQuery = graphql`
 query menuItems {
   site {
     siteMetadata {

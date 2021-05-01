@@ -38,7 +38,7 @@ module.exports = {
       {
         title: `Minusta`,
         link: '/metsan-otus',
-      }
+      },
       {
         title: `Vlogi`,
         link: `/vlogi`,
