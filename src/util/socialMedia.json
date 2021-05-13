@@ -1,0 +1,21 @@
+  
+{
+  "SoMeIcons": [
+    {
+      "icon": "Youtube",
+      "url": "https://www.youtube.com/channel/UC4t1gUHiI6hTPyAOR3zlqaw"
+    },
+    {
+      "icon": "Instagram",
+      "url": "https://www.instagram.com/MetsanOtus/"
+    },
+    {
+      "icon": "Twitter",
+      "url": "https://twitter.com/MetsanOtus"
+    },
+    {
+      "icon": "Podcast",
+      "url": "https://open.spotify.com/show/5aQQ6bUXCgddbb6rIjuuxQ"
+    }
+  ]
+}

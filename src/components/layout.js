@@ -13,6 +13,14 @@ query LayoutQuery {
   site {
     siteMetadata {
       siteTitle: title
+      MenuLinks {
+        link
+        title
+        subMenu {
+          link
+          title
+        }
+      }
     }
   }
 }
@@ -26,7 +34,7 @@ const Layout = ({ children, className }) => {
   return (
     <Container fluid className="px-0">
       <Header>
-        {<Navigation />}
+        <Navigation />
       </Header>
       <main className={"container " + className}>
         {children}

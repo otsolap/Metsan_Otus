@@ -1,13 +1,19 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightSLine } from "react-icons/ri"
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
 import Layout from "../components/layout"
 import VlogListHome from "../components/vlog-list-home"
 import SEO from "../components/seo"
+import {
+  RiArrowRightSLine,
+  RiTwitterFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiRssFill,
+} from "react-icons/ri"
+import Icons from "../util/socialmedia.json"
 
 export const pageQuery = graphql`
 query HomeQuery($id: String!){
@@ -65,22 +71,63 @@ query HomeQuery($id: String!){
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+
+  const SoMe = Icons.SoMeIcons.map((icons, index) => {
+    return (
+      <span className="some-icons" key={"some-icon" + index}>
+        {icons.icon === "Twitter" ? (
+          <Link to={icons.url} target="_blank">
+            <RiTwitterFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Youtube" ? (
+          <Link to={icons.url} target="_blank">
+            <RiYoutubeFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Instagram" ? (
+          <Link to={icons.url} target="_blank">
+            <RiInstagramFill />
+          </Link>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Podcast" ? (
+          <Link to={icons.url} target="_blank">
+            <RiRssFill />
+          </Link>
+        ) : (
+          ""
+        )}
+      </span>
+    )
+  })
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
+
+
+
   return (
     <Layout>
       <SEO />
       <Row>
         <Col md={6} className="home-banner">
-          <div>
+          <div className="home-banner-description">
             <h1 className="title">{frontmatter.title}</h1>
             <p className="tagline">{frontmatter.tagline}</p>
             <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
             <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine /></span></Link>
           </div>
+          <div className="home-banner-SoMe">
+            {SoMe}
+          </div>
         </Col>
-        <Col md={6}>
+        <Col className="home-banner-image" md={6}>
           {Image ? (
             <GatsbyImage
               image={Image}
@@ -92,7 +139,7 @@ const HomePage = ({ data }) => {
         </Col>
       </Row>
       <VlogListHome data={posts} />
-    </Layout>
+    </Layout >
   )
 }
 

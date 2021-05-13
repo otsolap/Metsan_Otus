@@ -115,7 +115,7 @@ class VlogIndex extends React.Component {
           title={"Vlogsivu " + currentPage + " / " + numVlogPages}
           description={"Tuoreimmat mielipiteet " + currentPage + " of " + numVlogPages}
         />
-        <h1>Vlog</h1>
+        <h1>Vlogi</h1>
         <h2>Kategoriat</h2>
         <Row className="py-5 tag-container">
           {tags}

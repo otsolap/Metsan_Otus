@@ -19,12 +19,12 @@ export default function VlogListHome(props) {
 
 const PostMaker = ({ data }) => (
   <section className="home-posts py-4">
-    <h2>Latest in <strong>Vlog</strong> <span className="icon -right"><RiArrowDownLine /></span></h2>
+    <h2>Tuoreimmat <strong>Vlogit</strong> <span className="icon -right"><RiArrowDownLine /></span></h2>
     <Row>
       {data}
     </Row>
     <Link
-      className="button"
+      className="button home-btn"
       to="/vlogi"
     >
       Katso kaikki vlogit<span className="icon -right"><RiArrowRightSLine /></span>
