@@ -76,30 +76,30 @@ const HomePage = ({ data }) => {
     return (
       <span className="some-icons" key={"some-icon" + index}>
         {icons.icon === "Twitter" ? (
-          <Link to={icons.url} target="_blank">
+          <a href={icons.url} target="_blank">
             <RiTwitterFill />
-          </Link>
+          </a>
         ) : (
           ""
         )}
         {icons.icon === "Youtube" ? (
-          <Link to={icons.url} target="_blank">
+          <a href={icons.url} target="_blank">
             <RiYoutubeFill />
-          </Link>
+          </a>
         ) : (
           ""
         )}
         {icons.icon === "Instagram" ? (
-          <Link to={icons.url} target="_blank">
+          <a href={icons.url} target="_blank">
             <RiInstagramFill />
-          </Link>
+          </a>
         ) : (
           ""
         )}
         {icons.icon === "Podcast" ? (
-          <Link to={icons.url} target="_blank">
+          <a href={icons.url} target="_blank">
             <RiRssFill />
-          </Link>
+          </a>
         ) : (
           ""
         )}
