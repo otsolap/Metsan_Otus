@@ -32,7 +32,7 @@ function menuLinks() {
               {path.subMenu && (
                 <NavDropdown class='sub-items responsive-navbar-nav'>
                   {path.subMenu.map((subpath) => (
-                    <NavDropdown.Item ahref={subpath.link}>
+                    <NavDropdown.Item a href={subpath.link}>
                       {subpath.title}
                     </NavDropdown.Item>
                   ))}
