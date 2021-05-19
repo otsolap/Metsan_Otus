@@ -70,6 +70,9 @@ const Contact = ({ data }) => {
             <label><input required placeholder="Sähköposti *" type="email" name="email" /></label>
           </p>
           <p>
+            <label><input placeholder="Aihe" type="text" name="subject" /></label>
+          </p>
+          <p>
             <label><textarea placeholder="Viesti" name="message"></textarea></label>
           </p>
           <p className="text-align-center">

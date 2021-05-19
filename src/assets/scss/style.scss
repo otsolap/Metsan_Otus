@@ -265,7 +265,7 @@ p {
 	.post-card .featured-image {
 		min-height: 300px;
 		// GATSBY-IMAGE WIDTH BUGAA MOBIILISSA, LAASTARI RATKAISU.
-		max-width: 280px;
+		// max-width: 280px;
 	}
 }
 article figure {
@@ -409,6 +409,10 @@ article img {
 }
 // Yhteydenottosivu
 .contact-page {
+	h1 {
+		padding-bottom: 2rem;
+	}
+
 	.wrapper {
 		max-width: 768px;
 		margin: 0 auto;
@@ -493,6 +497,7 @@ article img {
 		}
 	}
 	&.-post {
+		display: block;
 		text-align: inherit;
 		padding: 20px 0;
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
