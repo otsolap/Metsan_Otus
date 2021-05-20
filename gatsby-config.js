@@ -29,7 +29,8 @@ module.exports = {
     youtube: settings.meta.youtube,
     twitter: settings.meta.twitter,
     instagram: settings.meta.instagram,
-    // gtag: "G-DN31Z3YM6L",},
+    gtag: "G-DN31Z3YM6L",
+    gtm: "GTM-TBFDWT8",
     MenuLinks: [
       {
         title: `Etusivu`,
@@ -90,19 +91,25 @@ module.exports = {
         name: `content`,
       },
     },
-    // {
-    // resolve: `gatsby-plugin-google-gtag`,
-    // options: {
-    //  trackingId: [
-    //  gtag,
-    // ],
-    // gtagConfig: {
-    //   optimize_id: "OPT_CONTAINER_ID",
-    //   anonymize_ip: true,
-    //   cookie_expires: 0,
-    // },
-    //},
-    // },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TBFDWT8",
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+        // Specify optional GTM environment details.
+        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        dataLayerName: "Metsän Otus",
+        // Name of the event that is triggered
+        // on every Gatsby route change.
+        // Defaults to gatsby-route-change
+        routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

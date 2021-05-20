@@ -126,7 +126,7 @@ collections:
                 label: Twitter
                 required: false
                 
-          - label: "Google Analytics 4"
-            name: gtag
+          - label: "Google Tag Manager"
+            name: gtm
             widget: string
-            hint: "Add you tracking ID, for example G-XXXXXXXXX-X"
+            hint: "Add you tracking ID, for example GTM-XXXXX-X"
