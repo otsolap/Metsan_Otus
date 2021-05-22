@@ -3,7 +3,7 @@ template: vlog-post
 title: 4 Sarjakuvaa luettavaksi Joker-elokuvan jälkeen. - Sarjakuva-arvostelu
 slug: /vlogit/4-jokeria
 date: 2019-11-15 00:00
-description: this is the seventh test post
+description: 4 Sarjakuvaa luettavaksi Joker-elokuvan jälkeen. - Sarjakuva-arvostelu
 featuredImage: /assets/4JokeriSarjakuvaaKirjakerho.jpg
 tags: ["Kirjakerho"]
 ---

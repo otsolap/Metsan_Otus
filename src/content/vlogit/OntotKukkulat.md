@@ -3,7 +3,7 @@ template: vlog-post
 title: Ontot Kukkulat - Sarjakuva-arvostelu
 slug: /vlogit/ontot-kukkulat
 date: 2019-10-03 00:00
-description: this is the seventh test post
+description: Ontot Kukkulat - Sarjakuva-arvostelu
 featuredImage: /assets/OntotKukkulatOdenKirjakerho.jpg
 tags: ["Kirjakerho"]
 ---

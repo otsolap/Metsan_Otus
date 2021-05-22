@@ -3,7 +3,7 @@ template: vlog-post
 title: God of War PS4 - Peliarvostelu
 slug: /vlogit/god-of-war-ps4
 date: 2018-05-20 13:37
-description: this is the fifth test post
+description: God of War PS4 - Peliarvostelu
 featuredImage: /assets/GoWPS4Pelihallissa.png
 tags: ["Pelihalli"]
 ---

@@ -3,7 +3,7 @@ template: vlog-post
 title: Pelimarkkinat ja Pelialustojen mullistus
 slug: /vlogit/pelimarkkinat-2019
 date: 2019-02-27 10:15
-description: this is the sixth test post
+description: Pelimarkkinat ja Pelialustojen mullistus
 featuredImage: /assets/Pelimarkkinat_Hunajapurkki.png
 tags: ["Hunajapurkki"]
 ---

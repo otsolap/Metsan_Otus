@@ -3,7 +3,7 @@ template: vlog-post
 title: Batman:Damned - Sarjakuva-arvostelu
 slug: /vlogit/batman-damned
 date: 2019-10-03 00:00
-description: this is the seventh test post
+description: Batman:Damned - Sarjakuva-arvostelu
 featuredImage: /assets/BatmanDamnedKirjakerho.jpg
 tags: ["Kirjakerho"]
 ---

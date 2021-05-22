@@ -18,10 +18,10 @@ export const pageQuery = graphql`
 `
 const AboutPage = ({ data }) => {
 	const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+	const { frontmatter, html, excerpt } = markdownRemark
 
 	return (
-		<Layout className="page">
+		<Layout className="page about-page">
 			<SEO
 				title={frontmatter.title}
 				description={excerpt}

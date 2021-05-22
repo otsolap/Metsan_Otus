@@ -3,7 +3,7 @@ template: vlog-post
 title: Keltaliivien vallankumous
 slug: /vlogit/keltaliivit
 date: 2019-02-04 06:30
-description: this is the sixth test post
+description:  Keltaliivien vallankumous
 featuredImage: /assets/KeltaliivienVallankumousSaarna.jpg
 tags: ["Saarnakirja"]
 ---

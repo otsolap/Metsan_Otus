@@ -3,7 +3,7 @@ template: vlog-post
 title: Miten päivittää Posti nykyaikaan?
 slug: /vlogit/posti-v2
 date: 2019-12-04 10:15
-description: this is the sixth test post
+description: Miten päivittää Posti nykyaikaan?
 featuredImage: /assets/PostiHunajapurkki.png
 tags: ["Hunajapurkki"]
 ---

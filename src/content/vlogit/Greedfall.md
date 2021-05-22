@@ -3,15 +3,11 @@ template: vlog-post
 title: Greedfall - Peliarvostelu
 slug: /vlogit/greedfall-peliarvostelu
 date: 2020-06-14 14:00
-description: this is the fifth test post
+description: Greedfall - Peliarvostelu
 featuredImage: /assets/GreedfallPelihallissa.jpg
 tags: ["Pelihalli"]
 ---
->Viimein ja vihdoin meillä on peli, joka tuo eurooppalaisen siirtokunta-ajan kunniaan! 
->Ajat, jolloin eurooppalaiset valloittivat uusia mantereita ja nostivat alkukansojen elintasoa….  Se on hyvä alku, mutta mikä on parasta elämässä? 
->Avoin meri, merikarhujen laulu, Lokkien kirku ja tuuli hiuksissa.  Ei! 
->Vaan Murskata viholliset, kastaa heidät kristityiksi ja kuulla heidän naistensa vaikeroivan!
-
+*Viimein ja vihdoin meillä on peli, joka tuo eurooppalaisen siirtokunta-ajan kunniaan! Ajat, jolloin eurooppalaiset valloittivat uusia mantereita ja nostivat alkukansojen elintasoa….  Se on hyvä alku, mutta mikä on parasta elämässä? Avoin meri, merikarhujen laulu, Lokkien kirku ja tuuli hiuksissa. Ei! Vaan Murskata viholliset, kastaa heidät kristityiksi ja kuulla heidän naistensa vaikeroivan!*
 
 Greedfall on Spiders pelistudion kunnari joka nostaa yrityksen arvoa roolipelaajien keskuudessa. Olen viimeiset kaksivuotta hehkuttanut heidän pelejään: Bound by Flamea, Mars War Logs sekä Technomanceria. Kaikki hyviä pelejä, joiden mielenkiintoiset maailmat kärsivät vain suppeista hahmoista sekä vihollisten tekoälyn vaikeaselkoisuudesta. Voin ilokseni todeta, että viimein ja vihdoin - Spiders on onnistunut luomaan maailman, joka on asetelmaltaan sekä hahmoiltaan mielenkiintoinen. Teer Fradeenin saari ja sen monet ryhmät ovat omalaatuisia ja täynnä eläviä hahmoja, jotka tulet muistamaan jopa pelattuasi pelin läpi. Aiemmissa peleissä minulle esimerkiksi jäi vain mieleen päähahmojen lisäksi haltia prinssi Rhelmar tai ukkosenlapsi Andrew, mutta Petrus, Siora, Vasco, Aphra ja Kurt kaikki rikastavat saaren monipuolisuutta.
 

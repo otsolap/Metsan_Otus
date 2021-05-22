@@ -3,7 +3,7 @@ template: vlog-post
 title: Dyyni - Kirja-arvostelu
 slug: /vlogit/dyyni-kirja-arvostelu
 date: 2020-06-14 16:00
-description: this is the seventh test post
+description: Dyyni - Kirja-arvostelu
 featuredImage: /assets/DyyniKirjakerho.jpg
 tags: ["Kirjakerho"]
 ---

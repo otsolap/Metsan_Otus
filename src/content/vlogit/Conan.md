@@ -3,7 +3,7 @@ template: vlog-post
 title:  Conan Barbaari - Elokuva-arvostelu
 slug: /vlogit/conan-barbaari
 date: 2019-06-30 14:00
-description: this is the fifth test post
+description: Conan Barbaari - Elokuva-arvostelu
 featuredImage: /assets/ConanKarhuteatteri.jpg
 tags: ["Karhuteatteri"]
 ---

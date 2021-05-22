@@ -3,11 +3,11 @@ template: vlog-post
 title: Technomancer - Peliarvostelu
 slug: /vlogit/technomancer-peliarvostelu
 date: 2019-07-02 07:00
-description: this is the fifth test post
+description: Technomancer - Peliarvostelu
 featuredImage: /assets/Technomancer_OdenPelihallissa.jpg
 tags: ["Pelihalli"]
 ---
->Ihmiskunta on vajonnut itsetuhoon sateenkaariparaati oikeustaistelijoiden myötä. Vihon viimeinenkin lihaa syövä, heteronormaalia patriarkkaa edustava sinipunaniska lehmiänsä kera on nujerrettu ilmastonmuutoksen nimissä. Olemme menettäneet Vihreän gaia-planeettamme ja joudumme etsimään tähtien seasta uuden kodin. Kiitos Oranssiorangin ja hänen Space Force-ohjelmansa ansiosta. Me sinipunaniskaiset seikkailijat olemme löytäneet uuden kodin punaisesta Mars planeetasta.
+*Ihmiskunta on vajonnut itsetuhoon sateenkaariparaati oikeustaistelijoiden myötä. Vihon viimeinenkin lihaa syövä, heteronormaalia patriarkkaa edustava sinipunaniska lehmiänsä kera on nujerrettu ilmastonmuutoksen nimissä. Olemme menettäneet Vihreän gaia-planeettamme ja joudumme etsimään tähtien seasta uuden kodin. Kiitos Oranssiorangin ja hänen Space Force-ohjelmansa ansiosta. Me sinipunaniskaiset seikkailijat olemme löytäneet uuden kodin punaisesta Mars planeetasta.*
 
 Avaruus, tuo käymättömistä korpimaista viho viimeinen
 200 vuotta myöhemmin ja uudisraivaaja punaniskat ovat luoneet ideaalisen fasismi yhteiskuntansa. Valtiolla ei ole enää mitään sanomista mistään ja kaikki valta on annettu monopoli yrityksien käsiin. Jääprinsessa voi pysyä kylmän tyynenä, kun turvallisuudesta vastaavat rikoskartellit, mutta myöskään marssilaisten ei tarvitse suuttua petetyistä vaalilupauksista, koska yrityksien ei tarvitse lupailla vappusatasia.  Miksi turhautua liikenneministerin päätökseen estää rautatieuudistuksien kilpailutus, kun Marsissa ei edes pääse mihinkään. Opettajien tuista ei tarvita leikata ja opettajat varmistavat, että opetus kohdistuu kehittämään lojaalimmat orjat yritysvaltiolle.  Enää synkkinä torstai iltoina, kun makaat sängyssä kumppanisi kanssa ei tarvitse miettiä, että onko kumppanisi salaisesti perussuomalainen taikka vihreä, koska demokratia on vankeutta ja monopolit vapautta. 

@@ -3,7 +3,7 @@ template: vlog-post
 title: Kurdidilemma
 slug: /vlogit/kurdit
 date: 2019-10-30 07:28
-description: this is the sixth test post
+description: 2019 Kurdidilemma
 featuredImage: /assets/KurditSaarnakirja.jpg
 tags: ["Saarnakirja"]
 ---

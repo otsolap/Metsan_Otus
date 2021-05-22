@@ -3,7 +3,7 @@ template: vlog-post
 title: Miten olla parempi ihminen
 slug: /vlogit/miten-olla-parempi
 date: 2020-12-07 09:30
-description: this is the first test post
+description: Miten olla parempi ihminen
 featuredImage: /assets/MitenOllaParempi.jpg
 tags: ["Elämänkoulu"]
 ---

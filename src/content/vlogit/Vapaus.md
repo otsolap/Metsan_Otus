@@ -3,24 +3,24 @@ template: vlog-post
 title: Vapaus tuntea olemaan oma itsensä
 slug: /vlogit/vapaus
 date: 2020-09-13 12:15
-description: this is the sixth test post
+description: Vapaus tuntea olemaan oma itsensä
 featuredImage: /assets/VapausSaarna.jpg
 tags: ["Saarnakirja"]
 ---
->Katsomme maailmaa kummastellen.
->Rakkaus ja pelko muovaavat meitä.
->Yhdet ”ohjelmoidaan” olemaan pahemmin peloissaan kuin toiset.
->Meidän pitää päästä yli pelkojemme ja olla osana yhteiskuntaa.
->Tarvitsemme enemmän mielipidejohtajia, jotka uskaltavat lausua ääneen tahtonsa.
->Meille sanotaan, ettet saisi sanoa sitä tai tätä, koska työnantaja joutuisi antamaan someryöpyn myötä potkut.
->Mutta tapahtui, mitä tapahtui, olemme täällä toisiamme varten.
->Kulttuuria ei pysty perumaan, vaikka olisi korppikotka.
->Me kaikki olemme täällä ja tulemme käyttämään sananvapautta ollaksemme vapaita, ollaksemme omia itseämme.
->Haluamme olla yksilöitä, mutta heti, kun joku astuu ylitse normien, ihmiset menettävät järkensä.
->Olemme kaikki hulluja, mutta näyttelemme normaaleja.
->Kaksinaismoralismin määrä sen suhteen, kenellä on oikeus sananvapauteen, on kuvottavaa.
->Sananvapaus on vähän kuten mustahuumori.
->Ei ihan jokaista varten.
+*Katsomme maailmaa kummastellen.*
+*Rakkaus ja pelko muovaavat meitä.*
+*Yhdet ”ohjelmoidaan” olemaan pahemmin peloissaan kuin toiset.*
+*Meidän pitää päästä yli pelkojemme ja olla osana yhteiskuntaa.*
+*Tarvitsemme enemmän mielipidejohtajia, jotka uskaltavat lausua ääneen tahtonsa.*
+*Meille sanotaan, ettet saisi sanoa sitä tai tätä, koska työnantaja joutuisi antamaan someryöpyn myötä potkut.*
+*Mutta tapahtui, mitä tapahtui, olemme täällä toisiamme varten.*
+*Kulttuuria ei pysty perumaan, vaikka olisi korppikotka.*
+*Me kaikki olemme täällä ja tulemme käyttämään sananvapautta ollaksemme vapaita, ollaksemme omia itseämme.*
+*Haluamme olla yksilöitä, mutta heti, kun joku astuu ylitse normien, ihmiset menettävät järkensä.*
+*Olemme kaikki hulluja, mutta näyttelemme normaaleja.*
+*Kaksinaismoralismin määrä sen suhteen, kenellä on oikeus sananvapauteen, on kuvottavaa.*
+*Sananvapaus on vähän kuten mustahuumori.*
+*Ei ihan jokaista varten.*
 
 Tämän kertaisen saarnan ideansiemen tuli omasta turhautumisestani, kun näin omin silmin, kuinka Suomeen rantautui niin sanottu cancel-kulttuuri, jossa pienet mutta äänekkäät ryhmittymät yrittivät mitätöidä toisten ihmisten elämiä heidän somekirjoitustensa takia.
 

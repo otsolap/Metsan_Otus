@@ -448,6 +448,13 @@ article img {
 	}
 }
 
+// Metsän Otus - About Page.
+.about-page {
+	.gatsby-resp-image-image {
+		box-shadow: none !important;
+	}
+}
+
 /* FOOTER */
 .site-footer {
 	display: flex;

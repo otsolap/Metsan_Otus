@@ -3,7 +3,7 @@ template: vlog-post
 title: Noituri-saaga - Kirja-arvostelu
 slug: /vlogit/noiturisaaga
 date: 2019-12-27 09:45
-description: this is the fourth post
+description: Noituri-saaga - Kirja-arvostelu
 featuredImage: /assets/Noituri_2_Kirjakerho.png
 tags: ["Kirjakerho"]
 ---

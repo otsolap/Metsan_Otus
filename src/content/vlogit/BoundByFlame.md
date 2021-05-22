@@ -3,7 +3,7 @@ template: vlog-post
 title: Bound By Flame - Peliarvostelu
 slug: /vlogit/boundbyflame-peliarvostelu
 date: 2018-05-01 14:00
-description: this is the fifth test post
+description: Bound By Flame - Peliarvostelu
 featuredImage: /assets/BoundbyFlamePelihallissa.jpg
 tags: ["Pelihalli"]
 ---
