@@ -55,9 +55,9 @@ query HomeQuery($id: String!){
           featuredImage {
             childImageSharp {
               gatsbyImageData(
-                layout: FIXED
-                width: 345
-                height: 260
+                layout: CONSTRAINED
+                width: 690
+                height: 520
               )
             }
           }

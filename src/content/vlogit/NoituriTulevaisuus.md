@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Noituri Myrskykausi & Tulevaisuus - Kirja-arvostelu
-slug: /vlogit/noituri-3
+slug: /vlogit/kirjakerho/noituri-myrskykausi-kirja-arvostelu
 date: 2019-12-27 10:15
 description: Noituri Myrskykausi & Tulevaisuus - Kirja-arvostelu
 featuredImage: /assets/Noituri_3_Kirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/HyJjhVmxlcM
 ---
 Tervehdys Kurwat! 
 

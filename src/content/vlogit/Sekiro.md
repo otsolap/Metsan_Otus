@@ -1,19 +1,13 @@
 ---
 template: vlog-post
 title: Sekiro - Peliarvostelu
-slug: /vlogit/sekiro-peliarvostelu
+slug: /vlogit/pelihalli/sekiro-peliarvostelu
 date: 2021-02-28 13:37
 description: Sekiro - Peliarvostelu    
 featuredImage: /assets/SekiroKansi.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/TW6dxYOrFRY
 ---
-`youtube: 2Xc9gXyf2G4`
-
- <!-- #1: Embed through web URL -->
-`youtube:https://www.youtube.com/watch?v=nG5TXyyaeDs`
-
- <!-- #2: Embed through video ID -->
-`youtube:nG5TXyyaeDs`
 
 ## 前書き
 

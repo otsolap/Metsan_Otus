@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Tervetuloa Jaconiaan! Praedor esittely - Kirja-arvostelu
-slug: /vlogit/Praedor-esittely
+slug: /vlogit/kirjakerho/Praedor-esittely
 date: 2018-07-18 15:00
 description: Praedor esittely - Kirja-arvostelu
 featuredImage: /assets/PraedorTervetuloa_Kirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/3ureS34O-Eg
 ---
 Hei kaikki Metsän Otus täällä ja tällä kertaa halusin kokeilla jotain aivan uutta.Peli tai elokuva arvostelun tai videopeli markkinasta puhumisen sijasta haluan tuoda esille suomalaisen fantasiasarjakuva ja romaanisarjan nimeltä Praedor. 
 

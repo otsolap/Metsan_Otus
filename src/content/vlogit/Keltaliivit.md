@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Keltaliivien vallankumous
-slug: /vlogit/keltaliivit
+slug: /vlogit/saarnakirja/keltaliivit
 date: 2019-02-04 06:30
 description:  Keltaliivien vallankumous
 featuredImage: /assets/KeltaliivienVallankumousSaarna.jpg
 tags: ["Saarnakirja"]
+videoUrl: https://www.youtube.com/embed/ByRyNh55Y_M
 ---
 Miljoonat Ranskan kansalaiset ovat osoittaneet mieltänsä joko rauhanomaisesti tai väkivaltaisesti viimeisen kolmen kuukauden aikana ympäri Ranskaa. Suurin osa videomateriaalista tulee olemaan Ranskan pääkaupungista Pariisista, jossa myös suurin osa väkivaltaisesta mellakoinnista on tapahtunut.
 

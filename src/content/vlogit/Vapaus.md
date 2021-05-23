@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Vapaus tuntea olemaan oma itsensä
-slug: /vlogit/vapaus
+slug: /vlogit/saarnakirja/vapaus
 date: 2020-09-13 12:15
 description: Vapaus tuntea olemaan oma itsensä
 featuredImage: /assets/VapausSaarna.jpg
 tags: ["Saarnakirja"]
+videoUrl: https://www.youtube.com/embed/voC95N7WxeM
 ---
 *Katsomme maailmaa kummastellen.*
 *Rakkaus ja pelko muovaavat meitä.*

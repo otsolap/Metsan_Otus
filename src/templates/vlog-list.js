@@ -29,8 +29,8 @@ export const vlogListQuery = graphql`
 							childImageSharp {
                 gatsbyImageData(
                   layout: CONSTRAINED
-                  width: 345
-                  height: 260
+                  width: 690
+                  height: 520
                 )
 							}
 						}

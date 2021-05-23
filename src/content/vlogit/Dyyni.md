@@ -1,19 +1,14 @@
 ---
 template: vlog-post
 title: Dyyni - Kirja-arvostelu
-slug: /vlogit/dyyni-kirja-arvostelu
+slug: /vlogit/kirjakerho/dyyni-kirja-arvostelu
 date: 2020-06-14 16:00
 description: Dyyni - Kirja-arvostelu
 featuredImage: /assets/DyyniKirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/8TQxjKeyl-s
 ---
->”En saa pelätä.
->Pelko on mielen tappaja. Pelko on pikku kuolema, joka tuo täydellisen sammumisen.
->Katson pelkoani suoraan.
->Annan sen kulkea ylitseni ja lävitseni.
->Ja kun se on mennyt ohi, käännän sisäisen silmäni näkemään sen tien.
->Mistä pelko on kulkenut, siinä ei ole mitään.
->Vain minä pysyn. ”
+**”En saa pelätä. Pelko on mielen tappaja. Pelko on pikku kuolema, joka tuo täydellisen sammumisen. Katson pelkoani suoraan. Annan sen kulkea ylitseni ja lävitseni. Ja kun se on mennyt ohi, käännän sisäisen silmäni näkemään sen tien. Mistä pelko on kulkenut, siinä ei ole mitään.Vain minä pysyn."**
 
 ### Esittely Dyynin maailmaan
 

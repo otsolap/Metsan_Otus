@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: 4 Sarjakuvaa luettavaksi Joker-elokuvan jälkeen. - Sarjakuva-arvostelu
-slug: /vlogit/4-jokeria
+slug: /vlogit/kirjakerho/4-jokeria-sarjakuvaa
 date: 2019-11-15 00:00
 description: 4 Sarjakuvaa luettavaksi Joker-elokuvan jälkeen. - Sarjakuva-arvostelu
 featuredImage: /assets/4JokeriSarjakuvaaKirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/NKSi_31f5RM
 ---
 Wow, siis wow…. Jokeri elokuva saavutti miljardin kansainvälisessä lipunmyynnissä. Kuka olisikaan voinut uskoa, että Kauhea Kankkunen-elokuvatrilogian ohjaaja Todd Philips ohjaisi vuoden sarjakuvaelokuvan, jolla ei ole mitään tekemistä itse sarjakuvien kanssa! Senpä takia aion suositella neljä sarjakuvaa luettavaksi, jossa vihan harlekiini esiintyy.
 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Ajattele kuin Rooman keisari! Itselleni kirja-arvostelu
-slug: /vlogit/itselleni-kirja-arvostelu
+slug: /vlogit/elamankoulu/itselleni-kirja-arvostelu
 date: 2021-02-19 05:30
 description: Ajattele kuin Rooman keisari! Itselleni kirja-arvostelu
-featuredImage: /assets/Itselleni.jpg
+featuredImage: /assets/Itselleni.jpeg
 tags: ["Elämänkoulu"]
+videoUrl: https://www.youtube.com/embed/G59OBdd6owM
 ---
 ## Koiran elämää – Johdanto.
 

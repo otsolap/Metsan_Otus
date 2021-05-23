@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title:  Conan Barbaari - Elokuva-arvostelu
-slug: /vlogit/conan-barbaari
+slug: /vlogit/karhuteatteri/conan-barbaari-elokuva-arvostelu
 date: 2019-06-30 14:00
 description: Conan Barbaari - Elokuva-arvostelu
 featuredImage: /assets/ConanKarhuteatteri.jpg
 tags: ["Karhuteatteri"]
+videoUrl: https://www.youtube.com/embed/ibMqnTEiUMs
 ---
 Ensisilmäyksellä elokuva saattaa vaikuttaa vain kauniisti kerrotulta kostotarinalta, mutta se on paljon enemmän kuin miltä se näyttää. Conan barbaari sekoittaa fantasian, filosofian, toiminnan ja yksilökeskeisyyden. Luomalla näistä neljästä teemasta lempielokuvani kautta aikojen.
 

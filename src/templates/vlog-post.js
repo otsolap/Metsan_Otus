@@ -1,10 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 import kebabCase from "lodash/kebabCase"
 
-import Layout from "../components/layout"
+import Video from "../components/video";
+import Layout from "../components/layout";
 import SEO from '../components/seo';
 
 const Post = ({ data, pageContext }) => {
@@ -36,15 +36,10 @@ const Post = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
           </section>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title}
-              className="featured-image"
-            />
-          ) : ""}
+          <Video
+            videoUrl={frontmatter.videoUrl}
+          />
         </header>
-
         <div
           className="vlog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -101,6 +96,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        videoUrl
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)

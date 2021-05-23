@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Bloodborne - Peliarvostelu
-slug: /vlogit/bloodborne-peliarvostelu
+slug: /vlogit/pelihalli/bloodborne-peliarvostelu
 date: 2018-05-11 14:00
 description: Bloodborne - Peliarvostelu
 featuredImage: /assets/BloodborneOdenPelihallissa.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/XEPNgJWF5oI
 ---
 Bloodborne on moderni luolastoroolipeli. Olet yliluonnollisilla voimilla vahvistettu petojen Metsästäjä Goottisen viktoriaanisessa Yharnamin kaupungissa.  Yharnamin kaupunginyön pimeydessä kulkevat hullut kaupunkilaiset, raadoiltaan vääntyneet jättiläiset, noidat sekä peikot ja tietenkin hirviökauhun päätähdet, vampyyrit sekä ihmissudet. Pääset taistelemaan henkesi puolesta yhteen liitettyyn avoimeen maailmaan tiheistä kaupungin kulmista, tuhoutuneisiin slummeihin. Kaupungin laitamilla olevista metsistä yliopistotalojen luokkahuoneisiin. Aatelisten kartanoista kalastajakyliin sekä pienistä sairaalaklinikoista hylättyihin tutkimuslaitoksiin.
 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Mitä Posti voi oppia Death strandingista
-slug: /vlogit/deathstranding
+slug: /vlogit/meemit/deathstranding
 date: 2019-12-04 10:00
 description: Mitä Posti voi oppia Death strandingista
 featuredImage: /assets/PostiDS.jpg
 tags: ["Meemit"]
+videoUrl: https://www.youtube.com/embed/XRnkidqQ_iI
 ---
 Hideo Kojima – Legenda Metal Gear Solid pelisarjan takana, joka sai vuosien työstänsä kiitokseksi potkut Konamilta on tehnyt kunnianhimoisen ensiaskeleen videopelialasta elokuva-alaan!  Sony Playstation omistajat saavat vihdoin 2 pelin Blu-ray soittimeensa ainutlaatuisen 50-tuntisen elokuvakokemuksen.
 Olette varmaan lukeneet uusimmasta Terminaattori flopista, jos ette, kyseessä oli tylsän laiskasti tehty elokuva mutta Death Stranding onnistuu olevaan sitäkin tylsempi. Kuvitelkaa post-apokalypsi maailma, jossa Solid Snaken esikuvan Kyle Reesen sijasta oletkin………… *drum roll äänieffekti*…….  Postinjakaja, joka pelastaa maailmaa kuljettamalla nettikauppapaketteja. Aaah Kojima! Sinä japanilainen Yakuza olet tehnyt karhunpalveluksen meidän toivottomalle pääministerille. Suomen posti voi ottaa kymmeniä ideoita paketinjakelusta, asiakaspalvelusta ja työmenetelmistä. Heh, tuleeko Death Stranding antamaan uutta arvostusta pakettijakelijoille kuten Fortnite teki bussikuskeille?

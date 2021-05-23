@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Praedor - Kuninkaan kotka koston kukkuloilla- Kirja-arvostelu
-slug: /vlogit/Praedor-esittely
+slug: /vlogit/kirjakerho/praedor-kuninkaan-kotka-kirja-arvostelu
 date: 2019-04-12 19:00
 description: Praedor - Kuninkaan kotka koston kukkuloilla- Kirja-arvostelu
 featuredImage: /assets/PraedorKotka_Kirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/TlJQ0Czf72w
 ---
 Taivaan suuren suden sytyttämät sodan liekit eivät tahdo sammua Jaconiassa. Sukupolvia kestänyt jännite Holrusin ja Tutusin rajalla räjähtää veriseksi yhteenotoksi, jossa ainoat voittajat ovat hätää kärsiviä ryöväävät palkkasoturit. Alamikkolan kirjat kertovat yli viisivuotisesta sodasta, jonka liekit eivät näytä sammuvan vielä moneen vuoteen.
 

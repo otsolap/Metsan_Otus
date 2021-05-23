@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Dyynin Messias - Kirja-arvostelu
-slug: /vlogit/dyynim-messias-kirja-arvostelu
+slug: /vlogit/kirjakerho/dyynin-messias-kirja-arvostelu
 date: 2021-01-20 17:00
 description: Dyynin Messias - Kirja-arvostelu
 featuredImage: /assets/DyyninMessias.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/-KLxHkWWp-w
 ---
 ##    Esittely ja kertaus viimejaksosta
 
@@ -49,7 +50,7 @@ Uskonto ja Hallinto
 
 Jessica, tuo linnunradan ”ei niin neitsyt” Maria käsittelee uskonnollisen johtajan ja hallinnon vaarallista yhdistelmää: 
 *”Hallinto ei voi olla uskonnollista ja tietoista samanaikaisesti. Uskonnollinen kokemus vaatii spontaanisuutta, jonka lait väistämättä lannistavat. Eikä ilman lakeja voi hallita. Loppujen lopuksi lakien täytyy astua moraalin tilalle, omatunnon tilalle, jopa sen uskonnonkin tilalle, jonka luulette maailmaa hallitsevan. Pyhien rituaalien täytyy kasvaa ylistyksestä ja pyhyyden kaipauksesta, jotka muovaavat selkeän moraalin. Toisaalta hallinto taas on kulttuurin organismi, erityisen altis epäilylle, kysymyksille ja riitelylle. Näen sen päivän olevan tulossa, jona seremonioiden on astuttava uskon sijaan ja symbolismin moraalin sijaan.”*
-– Neiti Jessica
+–Neiti Jessica
 
 Lait luovat systeemin, joista valtiot syntyvät. Lakien avulla valtiosta tulee valtava, hierarkkinen ja pysyvä. Perinteisen valtion tehtävä on saada ihminen keskittämään energian itseensä. Materialismilla ei ole paikkaa vahvassa yhteiskunnassa, vain rappeutuvalla valtiolla.  
 Fremenit elivät aiemmin villeinä, mutta ovat nyt uudenmaailman herrakansaa, jotka hemmottelevat itsensä pilalle ylemmän elintasonsa myötä. Atreudukset halusivat tuoda helpotusta ja turvaa, mutta lopulta onnistuivat vain luomaan itsekeskeisiä ja hemmoteltuja fanaatikkoja. Hmm. Kuulostaako mitenkään tutulta? Katsomme nykyisiä johtajiamme halveksuvasti, mutta harva meistä uskaltaa katsoa omaan napaansa. 
@@ -66,7 +67,7 @@ Dyynin Messias olisi voinut olla tieteiskirja, jossa voisimme käsitellä nykyma
 Ihminen pystyy kehittämään elämää ja yhteiskuntaa miten hyvänsä, luoda monimutkaisen koneen ja yhteenliittymän.  Aina sattuu yksinäisille vallanpitäjille hetkiä joina ihmiskunnan kohtalo, tai peräti sen tulevaisuus  on yksinäisten ihmisten jotakuinkin yksinäisten päätösten varassa. Mekin olemme unohtamassa demokratian ja pistämässä tulevaisuutemme muutamien ihmisten varaan.
 
 *”Puhtaaksi huuhdottu mieli tekee päätöksiä tuntematta kaikkia tekijöitä ja ilman syytä ja seurausta”* 
-- Zensunnifilosofinen miete.
+-Zensunnifilosofinen miete.
 
 Kirjan teema on herkullinen tämänhetkiseen maailmantilanteeseen, mutta tarinankerronnaltaan liian tylsä.  Ainoa oppi minkä kirjasta voi ottaa on olla periksiantamaton oman elämänsä päätöksien kanssa. Asianhan voi nähdä näin: Haluatko laihduttaa? Seuraa syöntiäsi, kirjaa ne ylös ja kuntoile päivittäin. Pidä kiinni suunnitelmastasi ja toimi. Haluatko rikastua? Sijoita joka palkkakuitistasi pieni siivu ja opi ymmärtämään miten korkoa korolle toimii. Haluatko tulla hyväksi jossakin? Tee sitä joka päivä, vaikka se olisi kuinka vaikeaa. Nykymaailman ihmiset ovat niin kärsimättömiä, että he luovuttavat ennen kuin ehtivät keksiä ensimmäistäkään tekosyytä. Wow, näin syvällistä ja jaloa tekstiä sain irti Dyynin Messiaasta. Lukekaa mieluummin Itselleni…… Ja ryhtykää oman elämänne suvereeneiksi!  
 

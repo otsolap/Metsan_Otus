@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Spider-Man PS4 - Peliarvostelu
-slug: /vlogit/spiderman-ps4
+slug: /vlogit/pelihalli/spiderman-ps4
 date: 2018-12-05 12:00
 description:  Spider-Man PS4 - Peliarvostelu
 featuredImage: /assets/SpidermanPS4.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/CaO1dUdCe7E
 ---
 Ah New York, New York! Kaupunki, joka oli ennen rikollisuuden kahlitsema, kunnes Pormestari Ruby Giuliani, onnistui muuttamaan New Yorkista uuden Disneylandin.  New York on niin turvallinen ja vapaa kaupunki, että jopa Lontoosta on tullut vaarallisempi alue asua.  Voi kyllä ne ajat muuttuvat ja tulevaisuus osaa yllättää meidät kaikki.  Ehkä Hämiksen, Hurjapään sekä Kostajien pitäisi vaan muuttaa Lontooseen ja taistella Britannian suurinta rikollisryhmää. Lupia-tottelemattomat veronmaksajat.
 

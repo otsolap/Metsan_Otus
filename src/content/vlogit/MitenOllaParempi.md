@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Miten olla parempi ihminen
-slug: /vlogit/miten-olla-parempi
+slug: /vlogit/elamankoulu/miten-olla-parempi
 date: 2020-12-07 09:30
 description: Miten olla parempi ihminen
 featuredImage: /assets/MitenOllaParempi.jpg
 tags: ["Elämänkoulu"]
+videoUrl: https://www.youtube.com/embed/nRY98j8zPqw
 ---
 ## Johdanto
 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title:  Excalibur - Elokuva-arvostelu
-slug: /vlogit/conan-barbaari
+slug: /vlogit/karhuteatteri/excalibur-elokuva-arvostelu
 date: 2019-06-24 14:00
 description: Excalibur - Elokuva-arvostelu
 featuredImage: /assets/ExcaliburKarhuteatteri.jpg
 tags: ["Karhuteatteri"]
+videoUrl: https://www.youtube.com/embed/rr8RiShsrHI
 ---
 # Miekka on Vedetty!
 

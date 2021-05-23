@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Elä vapaana muiden mielipiteistä - Oden Elämänkoulu
-slug: /vlogit/vapaus-mielipiteista
+slug: /vlogit/elamankoulu/vapaus-mielipiteista
 date: 2021-03-01 11:30
 description: Elä vapaana muiden mielipiteistä
 featuredImage: /assets/VapaaMielipiteista.jpg
 tags: ["Elämänkoulu"]
+videoUrl: https://www.youtube.com/embed/_YvsSeu_duQ
 ---
 Puhutaan klassisesta asetelmasta nimeltä Oppilas ja mestari. Jedimestari ja padawaani. Rämeen pyromantikko ja hänen oppilaansa. Haluan puhua nopeasti nykymaailman kulttuurista, jossa tietyt työntekijät kaipaavat muiden ihmisten mielipiteitä heidän oman työnsä tuloksesta.  Jos sinä näet kuuluvasi edellä mainittuun ryhmään, esitän vain yhden kysymyksen: Miksi sinua kiinnostaisi muiden mielipiteet, kun kyseessä on sinun työsi?
 

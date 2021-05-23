@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Noituri-saaga - Kirja-arvostelu
-slug: /vlogit/noiturisaaga
+slug: /vlogit/kirjakerho/noiturisaaga-kirja-arvostelu
 date: 2019-12-27 09:45
 description: Noituri-saaga - Kirja-arvostelu
 featuredImage: /assets/Noituri_2_Kirjakerho.png
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/xiawvL8bWcw
 ---
 Saaga sai minut ajattelemaan Sapkowskin kotimaata Puolaa, varsinkin sen historiaa maailmansotien aikana.  En ole missään nimissä perehtynyt syvemmälle maailmansotien historiaan paitsi sen mitä lukio ja suositut maailmansotiin sijoittuvat elokuvat ovat minua opettaneet. 
 Nilfgaard on vastike Natsisaksalle ilman mitään epäilyksiä. Koko saagan aikana heidät kuvataan yksipuolisena pahuutena, mutta vaikka maailmanloppu kolkuttaa ovella niin pohjoisen Temerian kuningas Foltest yrittää laajentaa omaa valtakuntaansa kaappaamalla naapurivaltakuntien maita itselleen, vakuutelleen liittolaisilleen, että hänen etuudensa on yhtä kuin pohjoisen etu. 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: God of War PS4 - Peliarvostelu
-slug: /vlogit/god-of-war-ps4
+slug: /vlogit/pelihalli/god-of-war-ps4-peliarvostelu
 date: 2018-05-20 13:37
 description: God of War PS4 - Peliarvostelu
 featuredImage: /assets/GoWPS4Pelihallissa.png
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/nXeDEh9zO4c
 ---
 God of Warit ovat aina olleet tunnettuja nopeatempoisen raaoista taisteluistaan, missä Kratos taistelee mytologisia hirviötä sekä jumalia, minulle varsinkin pelisarja on ollut se siisti tapa oppia Kreikan mytologiaa.
 

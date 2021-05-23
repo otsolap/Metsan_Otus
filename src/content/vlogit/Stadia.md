@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Nopeita ajatuksia Google Stadiasta
-slug: /vlogit/stadia
+slug: /vlogit/hunajapurkki/stadia
 date: 2019-03-25 10:15
 description: Nopeita ajatuksia Google Stadiasta
 featuredImage: /assets/StadiaHunajapurkki.jpg
 tags: ["Hunajapurkki"]
+videoUrl: https://www.youtube.com/embed/mUwd40MSjS0
 ---
 Käsittelin äskeisessä videossani ” Pelimarkkinat ja Pelialustojen Mullistus ” siitä kuinka pelituottajat sekä uudet pelialustat muuttavat vanhanaikaiset konsolisodat pelialustasodiksi, mutta uusien pelialustojen myötä pelienkehittäjät saavat lisää rahoitusta, enemmän voittoa sekä markkinoinnin ja myynnin tukea, joka voisi tuoda uutta eloa koko videopelimarkkinoille ja sitä me tarvitsemme naiset ja herrat. Ei konsolipelialaa voida ylläpitää jatkuvilla Call of Duty tai Battlefield peleillä. 
 

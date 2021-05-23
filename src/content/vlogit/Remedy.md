@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Pelimarkkinat ja Remedy
-slug: /vlogit/remedy-2018
+slug: /vlogit/hunajapurkki/remedy-2018
 date: 2018-02-15 14:00
 description: Pelimarkkinat ja Remedy
 featuredImage: /assets/Remedy.jpg
 tags: ["Hunajapurkki"]
+videoUrl: https://www.youtube.com/embed/Fdh4NTxJpJs
 ---
 Hei kaikki, Inderesin analyytikko Atte Riikola kirjoitti 4. tammikuuta artikkelin Pelialan arvostustasoista ja samalla teki videon aiheesta Verneri Pulkkisen kanssa. Video keskittyi suomalaiseen pelifirmaan Remedyyn, joka listautui pörssiin viimevuoden kesänä.
 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Ontot Kukkulat - Sarjakuva-arvostelu
-slug: /vlogit/ontot-kukkulat
+slug: /vlogit/kirjakerho/ontot-kukkulat-sarjakuva-arvostelu
 date: 2019-10-03 00:00
 description: Ontot Kukkulat - Sarjakuva-arvostelu
 featuredImage: /assets/OntotKukkulatOdenKirjakerho.jpg
 tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/LMB1J8UJf2k
 ---
 On vuosi 2019 ja vaikuttaisi siltä, että elämme sarjakuvien kultaista-aikaa. Kapteeni Marvel mirrinsä voimin alisti internetin röllipeikot. Avengers Endgame rikkoi maailman ennätyksiä ja kukisti Avatarin maailmanlaajuisessa lippumyynnissä. Tuleva Jokeri elokuva on jo ennakkoon saanut rakkautta ja vastusta niin sarjakuvafaneilta kuin elokuva kriitikoilta.  Helsingin Sanomat jopa kehtaavat pohdiskella: Tulevatko tylsistyneet joodelilaiset harjoittamaan joukkoampumista elokuvateattereissa, jonkun vitun harlekiinin takia?
 

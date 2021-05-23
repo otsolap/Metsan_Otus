@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Demons' Souls - Peliarvostelu
-slug: /vlogit/demonssouls-peliarvostelu
+slug: /vlogit/pelihalli/demonssouls-peliarvostelu
 date: 2021-02-13 04:44
 description: Demons' Souls - Peliarvostelu    
 featuredImage: /assets/DemonsSouls.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/iSUGIKQqpio
 ---
 ## Olipa kerran
 

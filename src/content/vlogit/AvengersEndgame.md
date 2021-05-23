@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title:  Avengers Endgame - Elokuva-arvostelu
-slug: /vlogit/avengers-endgame
+slug: /vlogit/karhuteatteri/avengers-endgame-elokuva-arvostelu
 date: 2019-05-01 09:00
 description: Avengers Endgame - Elokuva-arvostelu
 featuredImage: /assets/AvengersEndgameKarhuteatteri.jpg
 tags: ["Karhuteatteri"]
+videoUrl: https://www.youtube.com/embed/TW6dxYOrFRY
 ---
 Avengers Endgame on oman luokkansa Kuninkaan Paluu.
 

@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Technomancer - Peliarvostelu
-slug: /vlogit/technomancer-peliarvostelu
+slug: /vlogit/pelihalli/technomancer-peliarvostelu
 date: 2019-07-02 07:00
 description: Technomancer - Peliarvostelu
 featuredImage: /assets/Technomancer_OdenPelihallissa.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/-wl7cjx4QCs
 ---
 *Ihmiskunta on vajonnut itsetuhoon sateenkaariparaati oikeustaistelijoiden myötä. Vihon viimeinenkin lihaa syövä, heteronormaalia patriarkkaa edustava sinipunaniska lehmiänsä kera on nujerrettu ilmastonmuutoksen nimissä. Olemme menettäneet Vihreän gaia-planeettamme ja joudumme etsimään tähtien seasta uuden kodin. Kiitos Oranssiorangin ja hänen Space Force-ohjelmansa ansiosta. Me sinipunaniskaiset seikkailijat olemme löytäneet uuden kodin punaisesta Mars planeetasta.*
 

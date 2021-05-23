@@ -59,7 +59,7 @@
 		text-decoration: none;
 	}
 	a[aria-current="page"] {
-		color: rgba(255, 255, 255, 1);
+		color: var(--text-color);
 	}
 
 	.show.dropdown {
@@ -93,7 +93,7 @@
 
 			&:hover {
 				background-color: var(--secondary-color);
-				color: rgba(255, 255, 255, 0.8);
+				color: var(--text-color);
 			}
 		}
 	}
@@ -101,7 +101,7 @@
 
 /* container */
 .container {
-	background-color: #000000;
+	background-color: var(--background-color);
 	max-width: 1440px;
 	margin: auto;
 	padding: auto;
@@ -205,8 +205,8 @@ p {
 }
 
 .post-card {
-	border: 1px ridge #050905;
-	background-color: #000000;
+	border: 1px ridge transparent;
+	background-color: var(--background-color);
 	align-items: center;
 	.featured-image {
 		img {
@@ -218,19 +218,19 @@ p {
 		font-size: 20px;
 		font-weight: 600;
 		a {
-			color: var(--tertiary-color);
+			color: var(--text-color);
 		}
 	}
 	&:hover {
 		border: 1px ridge #faf7f2;
 		.title {
-			color: var(--tertiary-color);
+			color: var(--text-color);
 		}
 	}
 	.meta {
 		margin: 0;
 		font-size: 12px;
-		color: var(--tertiary-color);
+		color: var(--text-color);
 	}
 	.post-content {
 		margin-bottom: 1rem;
@@ -258,14 +258,12 @@ p {
 	}
 	time {
 		font-size: 14px;
-		color: #faf7f2;
+		color: var(--text-color);
 	}
 }
 @media (max-width: $breakpoint-sm) {
 	.post-card .featured-image {
 		min-height: 300px;
-		// GATSBY-IMAGE WIDTH BUGAA MOBIILISSA, LAASTARI RATKAISU.
-		// max-width: 280px;
 	}
 }
 article figure {
@@ -280,7 +278,7 @@ article figure {
 article blockquote {
 	margin-left: 0;
 	padding: 5px 5px 5px 20px;
-	background-color: #05090b;
+	background-color: var(--background-color);
 	border-left: 3px solid #faf7f2;
 }
 article iframe {
@@ -350,7 +348,7 @@ article img {
 	display: inline-flex;
 	&::hover {
 		background-color: var(--secondary-color);
-		color: rgba(255, 255, 255, 0.8);
+		color: var(--text-color);
 	}
 }
 
@@ -381,11 +379,14 @@ article img {
 }
 
 .vlog-post-content {
-	max-width: 70ch;
+	max-width: 90ch;
 	margin: 0 auto;
 	padding: .5rem;
 	line-height: 1.5;
 	font-size: 18px;
+	@media (max-width: $breakpoint-sm) {
+		padding: 0;
+	}
 }
 
 .vlog-post {
@@ -507,7 +508,7 @@ article img {
 		display: block;
 		text-align: inherit;
 		padding: 20px 0;
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-top: 1px solid var(--tertiary-color);
 		margin: 50px 0 0;
 		ul {
 			display: flex;

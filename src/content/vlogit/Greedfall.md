@@ -1,11 +1,12 @@
 ---
 template: vlog-post
 title: Greedfall - Peliarvostelu
-slug: /vlogit/greedfall-peliarvostelu
+slug: /vlogit/pelihalli/greedfall-peliarvostelu
 date: 2020-06-14 14:00
 description: Greedfall - Peliarvostelu
 featuredImage: /assets/GreedfallPelihallissa.jpg
 tags: ["Pelihalli"]
+videoUrl: https://www.youtube.com/embed/i7ZnBnUcvYE
 ---
 *Viimein ja vihdoin meillä on peli, joka tuo eurooppalaisen siirtokunta-ajan kunniaan! Ajat, jolloin eurooppalaiset valloittivat uusia mantereita ja nostivat alkukansojen elintasoa….  Se on hyvä alku, mutta mikä on parasta elämässä? Avoin meri, merikarhujen laulu, Lokkien kirku ja tuuli hiuksissa. Ei! Vaan Murskata viholliset, kastaa heidät kristityiksi ja kuulla heidän naistensa vaikeroivan!*
 

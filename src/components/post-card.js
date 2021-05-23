@@ -13,8 +13,7 @@ const PostCard = ({ data }) => (
             image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
             alt={data.frontmatter.title}
             className="featured-image"
-            objectFit="cover"
-            objectPosition="100%"
+            objectFit="scale-down"
           />
         </Link>
       ) : ""
