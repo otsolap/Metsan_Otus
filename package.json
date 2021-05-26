@@ -19,6 +19,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
     "bootstrap": "^4.6.0",
     "gatsby": "^3.4.0",
     "gatsby-background-image": "^1.5.3",

@@ -20,7 +20,7 @@ const NotFound = () => (
         <p>Ei se mitään. Internet on täynnä syviä kuoppia, joihin voit tippua.</p>
       </header>
       <Link to="/" className="button"><RiArrowLeftSLine className="icon -left" />Takaisin etusivulle</Link>
-      <Link to="/contact" className="button -outline">Tee rapsa mun bugisesta nettisivusta. :-/ <RiBugLine className="icon -right" /></Link>
+      <Link to="/yhteydenotto" className="button -outline">Tee rapsa mun bugisesta nettisivusta. :-/ <RiBugLine className="icon -right" /></Link>
     </div>
   </Layout>
 )

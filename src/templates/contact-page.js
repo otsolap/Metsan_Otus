@@ -34,6 +34,7 @@ const Contact = ({ data }) => {
   const handleSendEmail = async (event) => {
     event.preventDefault();
 
+
     try {
       const response = await fetch("/.netlify/functions/contact-form-email", {
         method: "POST",
@@ -57,7 +58,7 @@ const Contact = ({ data }) => {
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-        <form className="contact-form" action="/kiitos" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSendEmail}   >
+        <form className="contact-form" action="/kiitos" name="contact" method="POST" data-netlify="true" value="contact" data-netlify-honeypot="bot-field" onSubmit={handleSendEmail}   >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden><input name="bot-field" /></p>
           <p>
