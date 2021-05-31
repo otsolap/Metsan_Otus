@@ -1,3 +1,4 @@
+require('dotenv').config();
 const sgMail = require('@sendgrid/mail')
 const {
   SENDGRID_API_KEY,
@@ -5,23 +6,19 @@ const {
   METSAN_OTUS_ADDRESS }
   = process.env
 
+sgMail.setApiKey(SENDGRID_API_KEY)
+
 exports.handler = async (event, context, callback) => {
 
-  const payload = JSON.parse(event.body)
-  const { email, subject } = payload
-
-  sgMail.setApiKey(SENDGRID_API_KEY)
-
-  const body = Object.keys(payload).map((k) => {
-    return `${k}: ${payload[k]}`
-  }).join("<br><br>");
+  const payload = JSON.stringify(event.body)
+  const { email, subject, message } = payload
 
   const msg = {
-    to: email,
+    to: METSAN_OTUS_ADDRESS,
     name: METSAN_OTUS_NAME,
-    from: METSAN_OTUS_ADDRESS,
-    subject: subject ? subject : 'Kiitos yhteydenotosta!',
-    text: body,
+    from: email,
+    subject: subject ? subject : 'Yhteydenotto lomakkeesta',
+    text: message,
   };
 
   try {
@@ -32,8 +29,8 @@ exports.handler = async (event, context, callback) => {
     }
   } catch (e) {
     return {
+      body: e.message,
       statusCode: 500,
-      body: e.message
     }
   }
 };

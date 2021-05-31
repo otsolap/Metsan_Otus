@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "12"
   publish = "dist"
-  functions = './functions/'
+  functions =  "./functions/"
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"

@@ -53,6 +53,9 @@ const Contact = ({ data }) => {
     try {
       const response = await fetch("/.netlify/functions/contact-form-email", {
         method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify(formState),
       })
       if (!response.ok) {
@@ -60,10 +63,11 @@ const Contact = ({ data }) => {
         return
       }
       //all OK
-    } catch (e) {
+    } catch (event) {
       //error
     }
   }
+
 
 
   return (
