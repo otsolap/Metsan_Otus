@@ -31,18 +31,19 @@ const Contact = ({ data }) => {
   // honeypot=bot-field on botteja varten.
   // p hidden pitää kohdan piilossa, mutta console.logilla sen löytää. ;-)
 
+
   const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
   })
 
   const handleChange = (e) => {
     setFormState({
       ...formState,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   }
 
@@ -52,7 +53,7 @@ const Contact = ({ data }) => {
     try {
       const response = await fetch("/.netlify/functions/contact-form-email", {
         method: "POST",
-        body: JSON.stringify({ formState }),
+        body: JSON.stringify(formState),
       })
       if (!response.ok) {
         //EI 200 response
