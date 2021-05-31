@@ -8,17 +8,20 @@ const {
 exports.handler = async (event, context, callback) => {
 
   const payload = JSON.parse(event.body)
-  const { email } = payload
+  const { email, subject } = payload
 
   sgMail.setApiKey(SENDGRID_API_KEY)
 
+  const body = Object.keys(payload).map((k) => {
+    return `${k}: ${payload[k]}`
+  }).join("<br><br>");
 
   const msg = {
     to: email,
     name: METSAN_OTUS_NAME,
     from: METSAN_OTUS_ADDRESS,
-    subject: 'Kiitos yhteydenotosta!',
-    html: `Kiitos viestistäsi! Palaan viestiisi noin viikon sisällä. Ystävällisin, Metsän Otus.`
+    subject: subject ? subject : 'Kiitos yhteydenotosta!',
+    text: body,
   };
 
   try {
@@ -29,7 +32,7 @@ exports.handler = async (event, context, callback) => {
     }
   } catch (e) {
     return {
-      statusCode: e.code,
+      statusCode: 500,
       body: e.message
     }
   }

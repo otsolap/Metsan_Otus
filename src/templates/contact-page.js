@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react";
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri";
 
@@ -31,13 +31,28 @@ const Contact = ({ data }) => {
   // honeypot=bot-field on botteja varten.
   // p hidden pitää kohdan piilossa, mutta console.logilla sen löytää. ;-)
 
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  })
+
+  const handleChange = (e) => {
+    setFormState({
+      ...formState,
+      [e.target.name]: e.target.value
+    });
+  }
+
   const handleSendEmail = async (event) => {
     event.preventDefault();
-
 
     try {
       const response = await fetch("/.netlify/functions/contact-form-email", {
         method: "POST",
+        body: JSON.stringify({ formState }),
       })
       if (!response.ok) {
         //EI 200 response
@@ -49,6 +64,7 @@ const Contact = ({ data }) => {
     }
   }
 
+
   return (
     <Layout className="contact-page">
       <SEO
@@ -58,26 +74,66 @@ const Contact = ({ data }) => {
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-        <form className="contact-form" action="/kiitos" name="contact" method="POST" data-netlify="true" value="contact" data-netlify-honeypot="bot-field" onSubmit={handleSendEmail}   >
+        <form className="contact-form"
+          action="/kiitos"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          value="contact"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleSendEmail}
+        >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden><input name="bot-field" /></p>
           <p>
-            <label><input required placeholder="Nimi *" type="text" name="name" /></label>
+            <label><input
+              required
+              placeholder="Nimi *"
+              type="text"
+              name="name"
+              onChange={handleChange}
+            />
+            </label>
           </p>
           <p>
-            <label><input required placeholder="Puhelin *" type="number" name="phone" /></label>
+            <label><input required
+              placeholder="Sähköposti *"
+              type="email"
+              name="email"
+              onChange={handleChange}
+            />
+            </label>
           </p>
           <p>
-            <label><input required placeholder="Sähköposti *" type="email" name="email" /></label>
+            <label><input required
+              placeholder="Puhelin *"
+              type="number"
+              name="phone"
+              onChange={handleChange}
+            />
+            </label>
           </p>
           <p>
-            <label><input placeholder="Aihe" type="text" name="subject" /></label>
+            <label><input placeholder="Aihe"
+              type="text"
+              name="subject"
+              onChange={handleChange}
+            />
+            </label>
           </p>
           <p>
-            <label><textarea placeholder="Viesti" name="message"></textarea></label>
+            <label><textarea
+              placeholder="Viesti"
+              name="message"
+              onChange={handleChange}
+            ></textarea></label>
           </p>
           <p className="text-align-center">
-            <button className="button" type="submit">Lähetä<span className="icon -right"><RiSendPlane2Line /></span></button>
+            <button className="button"
+              type="submit">
+              Lähetä<span className="icon -right"><RiSendPlane2Line />
+              </span>
+            </button>
           </p>
         </form>
       </div>
