@@ -8,9 +8,8 @@ const {
 
 sgMail.setApiKey(SENDGRID_API_KEY)
 
-exports.handler = async (event, context, callback) => {
-
-  const payload = JSON.stringify(event.body)
+exports.handler = async event => {
+  const payload = JSON.parse(event.body);
   const { email, subject, message } = payload
 
   const msg = {

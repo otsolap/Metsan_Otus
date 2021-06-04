@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 
 const Thanks = () => (
   <Layout className="thanks-page">
-    <SEO title="Thank you" />
+    <SEO title="Kiitos" />
     <div className="wrapper" style={{
       textAlign: "center"
     }}>
@@ -16,7 +16,7 @@ const Thanks = () => (
         color: "var(--primary-color)"
       }} />
       <h1>Kiitos! Viestisi on kuitattu.</h1>
-      <p>Tuleen palaamaan viestiisi heti kun ehdin.</p>
+      <p>Palaan viestiisi heti kun ehdin.</p>
       <Link to="/" className="button"><RiArrowLeftSLine className="icon -left" />Lets go back to Homepage</Link>
     </div>
 

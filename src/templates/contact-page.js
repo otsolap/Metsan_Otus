@@ -31,44 +31,43 @@ const Contact = ({ data }) => {
   // honeypot=bot-field on botteja varten.
   // p hidden pitää kohdan piilossa, mutta console.logilla sen löytää. ;-)
 
-
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-  })
-
-  const handleChange = (e) => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    });
-  }
-
-  const handleSendEmail = async (event) => {
-    event.preventDefault();
-
-    try {
-      const response = await fetch("/.netlify/functions/contact-form-email", {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formState),
-      })
-      if (!response.ok) {
-        //EI 200 response
-        return
-      }
-      //all OK
-    } catch (event) {
-      //error
+  /* 
+    const [formState, setFormState] = useState({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: '',
+    })
+  
+    const handleChange = (e) => {
+      setFormState({
+        ...formState,
+        [e.target.name]: e.target.value,
+      });
     }
-  }
-
-
+  
+    const handleSendEmail = async (event) => {
+      event.preventDefault();
+  
+      try {
+        const response = await fetch("/.netlify/functions/contact-form-email", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formState),
+        })
+        if (!response.ok) {
+          //EI 200 response
+          return
+        }
+        //all OK
+      } catch (e) {
+        //error
+      }
+    }
+   */
 
   return (
     <Layout className="contact-page">
@@ -80,13 +79,13 @@ const Contact = ({ data }) => {
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
         <form className="contact-form"
-          action="/kiitos"
+          action="/kiitos/"
           name="contact"
           method="POST"
           data-netlify="true"
           value="contact"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSendEmail}
+        // onSubmit={handleSendEmail}
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden><input name="bot-field" /></p>
@@ -96,7 +95,7 @@ const Contact = ({ data }) => {
               placeholder="Nimi *"
               type="text"
               name="name"
-              onChange={handleChange}
+            //  onChange={handleChange}
             />
             </label>
           </p>
@@ -105,7 +104,7 @@ const Contact = ({ data }) => {
               placeholder="Sähköposti *"
               type="email"
               name="email"
-              onChange={handleChange}
+            //    onChange={handleChange}
             />
             </label>
           </p>
@@ -114,15 +113,16 @@ const Contact = ({ data }) => {
               placeholder="Puhelin *"
               type="number"
               name="phone"
-              onChange={handleChange}
+            //    onChange={handleChange}
             />
             </label>
           </p>
           <p>
-            <label><input placeholder="Aihe"
+            <label><input
+              placeholder="Aihe"
               type="text"
               name="subject"
-              onChange={handleChange}
+            //    onChange={handleChange}
             />
             </label>
           </p>
@@ -130,7 +130,7 @@ const Contact = ({ data }) => {
             <label><textarea
               placeholder="Viesti"
               name="message"
-              onChange={handleChange}
+            //    onChange={handleChange}
             ></textarea></label>
           </p>
           <p className="text-align-center">
