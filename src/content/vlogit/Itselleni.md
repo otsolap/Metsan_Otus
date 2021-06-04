@@ -20,8 +20,11 @@ Lähestyin itse stoalaisuutta perehtyäkseni itseeni ja ymmärtääkseni, miksi 
 ## Esittely
 
 Kertaan ensimmäiseksi stoalaisuuden neljä hyvettä: 
+
 •	**Viisaus** ymmärtää maailmaa ilman ennakkoluuloja, loogisesti ja päättelevästi.  
+
 •	**Rohkeus** ottaa vastaan haasteet eikä valittaa niistä.
+
 •	Kohdella **oikeudenmukaisesti** kaikkia hyvin. Hallitsemalla omaa temperamenttia muita kohtaan ja hallitsemalla omaa **vihaa**.
 
 Stoalaisuus on auttanut antamaan minulle ymmärrystä käsityksiin, joista aina tiesin.  En vain osannut ilmaista niitä sanoin aiemmin. Esimerkiksi olen täysin välinpitämätön muiden ihmisten mielipiteistä, kun taas toiset saattavat elää kärsien, koska elävät muiden mielipiteiden armossa. Elämä on ja tulee aina olemaan tilan hallitsemista. Itsevarmuudesta nousseen sisun ja rentoutumisen kehitystä. Minua on vuosien aikana kiusattu useampaan otteeseen siitä, minkälainen olen persoonaltani: naurettu, moitittu tai haukuttu avaruusolennoksi.  Sitä tapahtuu vielä tänäkin päivänä läheisimmiltäni. Ihmiset eivät halua uskoa minua tai ymmärtää minua. Nyyh Nyyh -- kuvitelkaa krokotiilin kyynelten valuvan pitkin karhun silmiäni. En minä vaan mitään sille voi, että moni meistä stadilaisista on mitä on.

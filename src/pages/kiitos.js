@@ -5,7 +5,7 @@ import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 
-const Thanks = () => (
+const Kiitos = () => (
   <Layout className="thanks-page">
     <SEO title="Kiitos" />
     <div className="wrapper" style={{
@@ -17,10 +17,10 @@ const Thanks = () => (
       }} />
       <h1>Kiitos! Viestisi on kuitattu.</h1>
       <p>Palaan viestiisi heti kun ehdin.</p>
-      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left" />Lets go back to Homepage</Link>
+      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left" />Takaisin etusivulle.</Link>
     </div>
 
   </Layout>
 )
 
-export default Thanks
+export default Kiitos;

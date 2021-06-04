@@ -2,9 +2,9 @@
 template: vlog-post
 title: 12 Elämänohjetta | Käsikirja kaaosta vastaan - Oden Elämänkoulu
 slug: /vlogit/elamäakoulu/12-elamanohjetta
-date: 2020-09-13 12:15
+date: 2021-06-04 12:15
 description: 12 Elämänohjetta | Käsikirja kaaosta vastaan - Oden Elämänkoulu
-featuredImage: /assets/VapausSaarna.jpg
+featuredImage: /assets/12OhjettaKansi.jpg
 tags: ["Elämänkoulu"]
 videoUrl: https://www.youtube.com/embed/fkNJvqTPI9s
 ---
