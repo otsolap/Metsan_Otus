@@ -1,9 +1,9 @@
 ---
 template: vlog-post
-title: Elä vapaana muiden mielipiteistä - Oden Elämänkoulu
+title: Elä vapaana muiden mielipiteistä
 slug: /vlogit/elamankoulu/vapaus-mielipiteista
 date: 2021-03-01 11:30
-description: Elä vapaana muiden mielipiteistä
+description: Elä vapaana muiden mielipiteistä - Oden Elämänkoulu
 featuredImage: /assets/VapaaMielipiteista.jpg
 tags: ["Elämänkoulu"]
 videoUrl: https://www.youtube.com/embed/_YvsSeu_duQ

@@ -1,9 +1,9 @@
 ---
 template: vlog-post
-title: Gamestonk – Valta sijoittajille? Oden Hunajapurkki
+title: Gamestonk – Valta sijoittajille? 
 slug: /vlogit/hunajapurkki/gamestonk
 date: 2021-01-31 13:37
-description: Gamestonk – Valta sijoittajille?
+description: Gamestonk – Valta sijoittajille? - Oden Hunajapurkki
 featuredImage: /assets/GameStonk_kansi_01.jpg
 tags: ["Hunajapurkki"]
 videoUrl: https://www.youtube.com/embed/qce-Bcoqp6w
