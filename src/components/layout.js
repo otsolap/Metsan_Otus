@@ -7,6 +7,8 @@ import Navigation from "./navigation";
 
 import "../assets/scss/style.scss"
 import Footer from "./footer";
+import Search from "../components/search"
+
 
 const query = graphql`
 query LayoutQuery {
@@ -23,18 +25,22 @@ query LayoutQuery {
       }
     }
   }
+  siteSearchIndex {
+    index
+  }
 }
 `
 
-const Layout = ({ children, className }) => {
+const Layout = ({ children, className, props }) => {
 
-  const { site } = useStaticQuery(query)
+  const { site, siteSearchIndex } = useStaticQuery(query)
   const { siteTitle } = site.siteMetadata
 
   return (
     <Container fluid className="px-0">
       <Header>
         <Navigation />
+        <Search searchIndex={siteSearchIndex.index} />
       </Header>
       <main className={"container " + className}>
         {children}
