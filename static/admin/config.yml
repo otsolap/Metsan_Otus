@@ -15,12 +15,12 @@ media_folder: "static/assets"
 public_folder: "/assets" 
 
 collections:
-  - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Posts' # Used in the UI
-    label_singular: 'Post' # Used in the UI, ie: "New Post"
+  - name: 'vlogit' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Vlogit' # Used in the UI
+    label_singular: 'Vlogi' # Used in the UI, ie: "New Post"
     description: >
-      Create awesome content here.
-    folder: 'src/content/posts'
+      Mahtava sisältösi!
+    folder: 'src/content/vlogit'
     slug: '{{year}}-{{day}}-{{month}}-{{slug}}'
     summary: '{{title}} — {{year}}/{{day}}/{{month}}'
     create: true # Allow users to create new documents in this collection
@@ -29,7 +29,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.'}
       - {
-          label: 'Publish Date',
+          label: 'Julkaisupäivä',
           name: 'date',
           widget: 'datetime',
           dateFormat: 'DD-MM-YYYY',
@@ -38,11 +38,17 @@ collections:
         }
       - { label: 'SEO Description', name: 'description', widget: 'text' }
       - {
-          label: 'Featured Image',
+          label: 'Vlogin kuva',
           name: 'featuredImage',
           widget: 'image',
           required: false,
           tagname: ''
+        }
+        - {
+          label: 'Youtube url',
+          name: 'videoUrl',
+          widget: 'video',
+          required: false,
         }
 
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
