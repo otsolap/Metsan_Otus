@@ -44,13 +44,8 @@ collections:
           required: false,
           tagname: ''
         }
-        - {
-          label: 'Youtube url',
-          name: 'videoUrl',
-          widget: 'video',
-          required: false,
+      - { label: 'Youtube url', name: 'videoUrl', widget: 'file', required: false,
         }
-
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
   - label: "Pages"
     name: "pages"
