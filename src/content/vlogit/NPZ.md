@@ -32,9 +32,9 @@ Nietzsche halusi tuhota käsitteen hyvästä ja pahasta. Olemme vain me. Me teem
 
 Meidän tehtävä on luoda jotain suurempaa.  Ruumis on kuin temppeli, jonka mieli on joko puhdas tai saasteinen. Meidän on päästä yli hyvän ja pahan. Meidän on päästävä ylitse jopa totuuden. Siksi Nietzsche halusi ottaa inspiraatiota muinaisesta Zarathustralaisuudesta, joten mitäpä sen enempää kuin siirrytään itse muinaiseen indoarjalaiseen uskontoon!
 
-## Zarathustralaisuus uskontona 
+## Zarathustralaisuus uskontona
 
-Zarathustra oli opettaja muinaisessa Persian valtakunnassa ja opetti ihmisille, että jumalat ovat demoneja, jotka vaativat uhrauksia. Oli kyseessä sitten naudanliha tai käärmeesi pää! Miksi palvoa demoneja, miksi alistua jonkin orjaksi, kun vapaalla tahdolla voit ylittää itsesi kuin yli-ihminen!  
+Zarathustra oli opettaja muinaisessa Persian valtakunnassa ja opetti ihmisille, että jumalat ovat demoneja, jotka vaativat uhrauksia. Oli kyseessä sitten naudanliha tai käärmeesi pää! Miksi palvoa demoneja, miksi alistua jonkin orjaksi, kun vapaalla tahdolla voit ylittää itsesi kuin yli-ihminen!\
 Nietzsche kokee, että zarathustralaisuuden pääpointti on parantaa maailma niin ihmisen kuin luonnon kannalta. Totuus on niin tärkeä asia, että sillä jopa ohitetaan demokraattiset käsitykset kuten moraali. Totuus on aina moraalia tärkeämpi Zarathustran mukaan. Totuus on hyvettä ja pahettakin suurempi arvo. Huomaatte varmasti, miksi Nietzsche kiehtoutui Zarathustralaisuuden oppeihin kristinuskoisessa Saksassa?
 
 Nietzschen ja Zarathustran opetukset ovat tulevaisuuttamme varten, jotta olisimme henkisesti vahvempia. (Zarathustraa voisi jopa kuvata arkeofuturistiseksi, mutta se on aivan oma aiheensa). Molemmat näkivät pahuuden voimien tulevan koettelemaan meitä, mutta juuri meditatiivisella mietinnällä ja näkemällä maailman sellaisenaan kuin se on, pystymme luomaan itsellemme merkityksen, joka on suurempi kuin mitä tämä maanpäällinen elämä tarjoaa.
@@ -99,6 +99,8 @@ Yli-ihmisyys on tunnetila, eikä mitään mitä oppii kirjoja lukemalla.  Yli-ih
 
 Nietzsche sanoi, että päätös tehdä mitään on suurempi, kuin vain turhapäiväinen aikansa hukkaaminen turhiin asioihin, ainoastaan sen takia, että elämään ei ole osattu itsenäisesti päättää mitään muuta tehtävää – Siinäpä se, heillä on tahdon voima olla tekemättä mitään. He ovat täysin välinpitämättömiä niin ulkopuolisista kuin itsestään.
 Amor fati hyvät ihmiset! Rakastakaa kohtaloanne ja ottakaa elämä vastaanne! On turha välittää yhteiskunnan moraalisista rajoitteista tai yhteiskunnan normeista. Me olemme tämän maailman suvereeneja. Meille hyvyys on vahvuus ylittää ja pahuus on alistua toisen tahdon alle. Se on meidän tehtävämme näyttää miltä maailma näyttää. Ilman kaksinaamaisuutta tai moraalin valheidenverhoa. Maailma on sitä miltä se näyttää.  Määrittelemätön. Sinä päätät tahdollasi. Sinun mahdillasi. Sinun tulellasi.
-Ihminen on silta, eikä maali; ja kiitollisen onnekas keskipäivästään ja illastaan, tienä uusiin aamunkoittoihin! 
+
+
+*Ihminen on silta, eikä maali; ja kiitollisen onnekas keskipäivästään ja illastaan, tienä uusiin aamunkoittoihin!* 
 
 Näin puhui Zarathustra.
