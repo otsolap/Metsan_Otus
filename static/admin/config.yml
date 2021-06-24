@@ -32,9 +32,9 @@ collections:
           label: 'Julkaisupäivä',
           name: 'date',
           widget: 'datetime',
-          dateFormat: 'DD-MM-YYYY',
+          dateFormat: 'YYYY-MM-DD',
           timeFormat: 'HH:mm',
-           format: 'DD-MM-YYYY HH:mm',
+           format: 'YYYY-MM-DD HH:mm',
         }
       - { label: 'SEO Description', name: 'description', widget: 'text' }
       - {
