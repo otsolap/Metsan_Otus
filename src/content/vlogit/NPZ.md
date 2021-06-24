@@ -2,11 +2,12 @@
 template: vlog-post
 title: Näin puhui Zarathustra
 slug: /vlogit/kirjakerho/npz
-date: 2021-06-04 12:15
+date: 24-06-2004 16:30
 description: Näin puhui Zarathustra - Oden Kirjakerho
 featuredImage: /assets/NPZ.png
-tags: ["Kirjakerho"]
 videoUrl: https://www.youtube.com/embed/a1-OZBQPCiE
+tags:
+  - Kirjakerho
 ---
 ## Johdatus yli-ihmisen ajattelumaailmaan
 
