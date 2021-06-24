@@ -2,7 +2,7 @@
 template: vlog-post
 title: Näin puhui Zarathustra
 slug: /vlogit/kirjakerho/npz
-date: 2021-06-04 12:15
+date: 2021-06-23 16:30
 description: Näin puhui Zarathustra - Oden Kirjakerho
 featuredImage: /assets/NPZ.png
 tags: ["Kirjakerho"]
