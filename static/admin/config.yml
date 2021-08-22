@@ -52,7 +52,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "src/content/pages/index.md"
+        file: "src/content/sivut/index.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "index-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/" }
@@ -72,7 +72,7 @@ collections:
               widget: "string"
       - label: "Metsän Otus"
         name: "metsan-otus"
-        file: "src/content/pages/about.md"
+        file: "src/content/sivut/about.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "about-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/about" }
@@ -80,7 +80,7 @@ collections:
         - {label: "Body", name: "body", widget: "markdown"}
       - label: "Ota Yhteyttä"
         name: "Ota Yhteyttä"
-        file: "src/content/pages/contact.md"
+        file: "src/content/sivut/contact.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "contact-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/contact-page" }
