@@ -25,9 +25,18 @@ collections:
     summary: '{{title}} — {{year}}/{{day}}/{{month}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: 'Template', name: 'template', widget: 'hidden', default: 'vlog-post'}
+      - { 
+        label: 'Template', 
+        name: 'template', 
+        widget: 'hidden', 
+        default: 'vlog-post'}
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
-      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.'}
+      - { 
+        label: 'Slug', 
+        name: 'slug', 
+        widget: 'string', 
+        hint: 'Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.'
+        }
       - {
           label: 'Julkaisupäivä',
           name: 'date',
@@ -91,7 +100,7 @@ collections:
     files:
       - name: general
         label: General
-        file: "config.js"
+        file: "src/util/site.json"
         fields:
           - label: meta
             name: meta
@@ -118,7 +127,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: '/assets/stackrole.png'
+                default: '/assets/MetsanOtusLogo_Cover.png'
               - widget: image
                 name: iconimage
                 label: favicon

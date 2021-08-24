@@ -4,7 +4,7 @@ title: Ontot Kukkulat - Sarjakuva-arvostelu
 slug: /vlogit/kirjakerho/ontot-kukkulat-sarjakuva-arvostelu
 date: 2019-10-03 00:00
 description: Ontot Kukkulat - Sarjakuva-arvostelu
-featuredImage: /assets/ontot-kukkulat-2021-kansi-tekstitön.png
+featuredImage: /assets/OntotKukkulat2021tekstitonkansi.png
 videoUrl: https://www.youtube.com/embed/LMB1J8UJf2k
 tags:
   - Kirjakerho
