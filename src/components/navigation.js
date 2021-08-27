@@ -49,7 +49,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <Navbar collapseOnSelect expand='md' className='site-navigation'>
-        <Navbar.Brand class='logo' href='/'>Metsän Otus</Navbar.Brand>
+        <Navbar.Brand className='logo' href='/'>Metsän Otus</Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           {menuLinks()}

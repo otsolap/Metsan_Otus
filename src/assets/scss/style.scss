@@ -478,6 +478,15 @@ article img {
 		margin-right: .5rem;
 		margin-left: .5rem;
 	}
+	.footer-created-by {
+		display: flex;
+		margin-top: auto;
+		align-items: center;
+		.Kultakammen {
+			width: 2rem;
+			height: auto;
+		}
+	}
 }
 
 /* PAGINATION  */
