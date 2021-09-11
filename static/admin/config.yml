@@ -26,16 +26,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { 
-        label: 'Template', 
+        label: 'Pohja', 
         name: 'template', 
         widget: 'hidden', 
         default: 'vlog-post'}
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
       - { 
-        label: 'Slug', 
+        label: 'Slugi', 
         name: 'slug', 
         widget: 'string', 
-        hint: 'Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.'
+        hint: 'Aloita aina / , muista aloittaa /vlogit/[osio]/ ja sitten nimi loppuun.'
         }
       - {
           label: 'Julkaisupäivä',
@@ -55,29 +55,35 @@ collections:
         }
       - { label: 'Youtube url', name: 'videoUrl', widget: 'file', required: false,
         }
+        - { 
+          label: "Tagit", 
+          name: 'tags', 
+          widget: 'text', 
+          hint: 'Kirjoita: ["Osion_nimi"]',
+          required: true,
+          }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Home"
+      - label: "Etusivu"
         name: "home"
         file: "src/content/sivut/index.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "index-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/" }
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Tagline", name: "tagline", widget: "string"}
-        - {label: "Featured Image", name: "featuredImage", widget: "image"}
+        - {label: "Otsikko", name: "title", widget: "string"}
+        - {label: "Kansikuva", name: "featuredImage", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
         - label: "CTA"
           name: "cta"
           widget: "object"
           fields: 
             - name: "ctaText"
-              label: "CTA text"
+              label: "CTA teksti"
               widget: "string"
             - name: "ctaLink"
-              label: "CTA Link"
+              label: "CTA linkki"
               widget: "string"
       - label: "Metsän Otus"
         name: "metsan-otus"
@@ -92,14 +98,14 @@ collections:
         file: "src/content/sivut/contact.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "contact-page" }
-        - {label: "Slug", name: "slug", widget: "hidden", default: "/contact-page" }
-        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Slugi", name: "slug", widget: "hidden", default: "/contact-page" }
+        - {label: "Otsikko", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
   - name: settings
     label: Settings
     files:
       - name: general
-        label: General
+        label: Yleiset
         file: "src/util/site.json"
         fields:
           - label: meta
@@ -108,25 +114,25 @@ collections:
             fields:
               - widget: string
                 name: title
-                label: Site Title
+                label: Sivun otsikko
                 required: true
               - widget: string
                 name: titleTemplate
-                label: Title Template
+                label: Otsikon template
                 default: "%s"
                 required: true
               - widget: string
                 name: siteUrl
-                label: Website URL
+                label: Sivun URL
                 required: true
               - widget: text
                 name: description
-                label: Description
+                label: Kuvaus
                 default: ''
                 required: false
               - widget: image
                 name: image
-                label: image
+                label: Kuva
                 default: '/assets/MetsanOtusLogo_Cover.png'
               - widget: image
                 name: iconimage

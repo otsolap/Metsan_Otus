@@ -1,12 +1,13 @@
 ---
 template: vlog-post
-title: Dyyni-saagan opetus | God Emperor of Dune – Kirja-arvostelu | Oden kirjakerho |
+title: Dyyni-saagan opetus | God Emperor of Dune – Kirja-arvostelu
 slug: /vlogit/kirjakerho/dyyni-saagan-opetus
-date: 2021-09-11 22:24
+date: 2021-09-11 19:00
 description: Dyyni-saagan opetus | God Emperor of Dune – Kirja-arvostelu | Oden
   kirjakerho | Metsän Otus
 featuredImage: /assets/dyyni_saaga_yt.png
-videoUrl: https://youtu.be/u60aeslVNK0
+tags: ["Kirjakerho"]
+videoUrl: https://www.youtube.com/embed/u60aeslVNK0
 ---
 ## Esittely ja kertausta viimejaksoista.
 
