@@ -55,14 +55,14 @@ collections:
         }
       - { label: 'Youtube url', name: 'videoUrl', widget: 'file', required: false,
         }
-        - { 
+      - { 
           label: "Tagit", 
           name: 'tags', 
           widget: 'text', 
           hint: 'Kirjoita: ["Osion_nimi"]',
           required: true,
           }
-      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Tekstisisältö tänne.' }
   - label: "Pages"
     name: "pages"
     files:
