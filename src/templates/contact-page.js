@@ -13,6 +13,9 @@ export const pageQuery = graphql`
 			excerpt(pruneLength: 140)
       frontmatter {
         title
+        cta {
+          ctaText
+        }
       }
     }
     site {
@@ -136,7 +139,8 @@ const Contact = ({ data }) => {
           <p className="text-align-center">
             <button className="button"
               type="submit">
-              Lähetä<span className="icon -right"><RiSendPlane2Line />
+              {frontmatter.cta.ctaText}
+              <span className="icon -right"><RiSendPlane2Line />
               </span>
             </button>
           </p>

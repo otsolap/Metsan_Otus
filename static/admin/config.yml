@@ -9,7 +9,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 # Uncomment local_backend when you need to develop in your local
-#local_backend: true # run npx netlify-cms-proxy-server for local testing
+local_backend: true # run npx netlify-cms-proxy-server for local testing
 
 media_folder: "static/assets" 
 public_folder: "/assets" 
@@ -142,7 +142,24 @@ collections:
                 label: Twitter
                 required: false
                 
-          - label: "Google Tag Manager"
-            name: gtm
-            widget: string
-            hint: "Add you tracking ID, for example GTM-XXXXX-X"
+          - label: "Google"
+            name: google
+            widget: object
+            fields:
+              - widget: string
+                name: ga4
+                label: Google Analytics
+              - widget: string
+                name: gtm
+                label: Google Tag Manager
+          - label: "Footer"
+            name: footer
+            widget: "object"
+            fields: 
+            - name: "CTA"
+              label: "CTA linkki"
+              widget: "string"
+            - name: "company-name"
+              label: "CTA teksti"
+              widget: "string"
+
