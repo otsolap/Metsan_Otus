@@ -141,9 +141,10 @@ collections:
                 name: twitterUsername
                 label: Twitter
                 required: false
-                
+
           - label: "Google"
             name: google
+            file: "src/util/site.json"
             widget: object
             fields:
               - widget: string
@@ -156,16 +157,48 @@ collections:
                 label: Google Tag Manager
                 hint: "laita joko GTM koodi tähän tai GA. Älä molempia!"
                 required: false
+                
           - label: "Footer"
             name: footer
+            file: "src/util/site.json"
             widget: "object"
             fields: 
-            - name: "CTA"
-              label: "CTA Someikonoiden yllä"
-              widget: "string"
-              required: true
-            - name: "companyName"
-              label: "Yrityksen nimi"
-              widget: "string"
-              required: true
+              - name: "CTA"
+                label: "CTA Someikonoiden yllä"
+                widget: "string"
+                required: true
+              - name: "companyName"
+                label: "Yrityksen nimi"
+                widget: "string"
+                required: true
 
+      - label: Sosiaalinen Media
+        name: socialIcons
+        file: "src/util/socialMedia.json"
+        fields:
+          - label: Social Icons
+            name: socialIcons
+            widget: list
+            collapsed: true
+            hint: "Täällä voit lisätä somesi, Klikkaa 'Add social icons'"
+            fields:
+              - label: "Icons"
+                name: "icon"
+                widget: "select"
+                options:
+                  [
+                    "facebook",
+                    "twitter",
+                    "linkedin",
+                    "youtube",
+                    "instagram",
+                    "rss",
+                    "github",
+                    "telegram",
+                  ]
+                hint: "Valitse ikoni"
+              - widget: string
+                name: url
+                label: url
+                required: true
+                hint: "Laita tähän URL:I SoMe kanavaasi"
