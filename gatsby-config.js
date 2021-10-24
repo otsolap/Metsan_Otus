@@ -73,6 +73,8 @@ module.exports = {
         title: `Ota yhteyttä`
       },
     ],
+    footer_cta: settings.footer.CTA,
+    footer_company_name: settings.footer.companyName
   },
   plugins: [
     {
@@ -92,7 +94,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-TBFDWT8",
+        id: settings.google.gtm,
         includeInDevelopment: false,
       },
     },

@@ -1,12 +1,21 @@
 {
   "meta": {
-  "title": "Metsän Otus",
-  "description": "Karhumaisia mielipiteitä",
-  "siteUrl": "https://www.metsanotus.fi",
-  "image": "/assets/MetsanOtusLogoOfficial.png",
-  "iconimage": "/assets/MetsanOtusLogoOfficial.png",
-  "youtube": "https://www.youtube.com/channel/UC4t1gUHiI6hTPyAOR3zlqaw",
-  "twitter": "@MetsanOtus",
-  "instagram": "@MetsanOtus"
+    "iconimage": "/assets/MetsanOtusLogoOfficial.png",
+    "youtube": "https://www.youtube.com/channel/UC4t1gUHiI6hTPyAOR3zlqaw",
+    "siteUrl": "https://www.metsanotus.fi",
+    "twitterUsername": "MetsanOtus",
+    "titleTemplate": "Karhumaisia mielipiteitä. | Amor fati | Mielen ja kehon terävöinti",
+    "instagram": "@MetsanOtus",
+    "twitter": "@MetsanOtus",
+    "title": "Metsän Otus",
+    "image": "/assets/MetsanOtusLogoOfficial.png",
+    "description": "Karhumaisia mielipiteitä"
+  },
+  "footer": {
+    "CTA": "Seuraa minua:",
+    "companyName": "Metsän Otus"
+  },
+  "google": {
+    "gtm": "GTM-TBFDWT8"
   }
-  }
+}

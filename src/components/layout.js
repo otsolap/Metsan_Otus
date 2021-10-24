@@ -31,6 +31,8 @@ query LayoutQuery {
 }
 `
 
+
+
 const Layout = ({ children, className, props }) => {
 
   const { site, siteSearchIndex } = useStaticQuery(query)

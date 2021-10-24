@@ -149,19 +149,23 @@ collections:
               - widget: string
                 name: analytics
                 label: Google Analytics
+                hint: "laita joko Google Analytics koodi tähän tai GTM. Älä molempia!"
                 required: false
               - widget: string
                 name: gtm
                 label: Google Tag Manager
+                hint: "laita joko GTM koodi tähän tai GA. Älä molempia!"
                 required: false
           - label: "Footer"
             name: footer
             widget: "object"
             fields: 
             - name: "CTA"
-              label: "CTA linkki"
+              label: "CTA Someikonoiden yllä"
               widget: "string"
-            - name: "company-name"
-              label: "CTA teksti"
+              required: true
+            - name: "companyName"
+              label: "Yrityksen nimi"
               widget: "string"
+              required: true
 
