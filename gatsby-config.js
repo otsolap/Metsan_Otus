@@ -29,53 +29,50 @@ module.exports = {
     youtube: settings.meta.youtube,
     twitter: settings.meta.twitter,
     instagram: settings.meta.instagram,
-    gtag: "G-DN31Z3YM6L",
-    gtm: settings.gtm.
-      MenuLinks: [
-        {
-          title: `Etusivu`,
-          link: '/',
-        },
-        {
-          title: `Minusta`,
-          link: '/metsan-otus',
-        },
-        {
-          title: `Vlogi`,
-          link: `/vlogi`,
-          subMenu: [
-            {
-              title: `Kirjakerho`,
-              link: `/vlogi/kirjakerho/`,
-            },
-            {
-              title: `Elämänkoulu`,
-              link: `/vlogi/elamankoulu/`,
-            },
-            {
-              title: `Saarnakirja`,
-              link: `/vlogi/saarnakirja/`,
-            },
-            {
-              title: `Hunajapurkki`,
-              link: `/vlogi/hunajapurkki/`,
-            },
-            {
-              title: `Pelihalli`,
-              link: `/vlogi/pelihalli/`,
-            },
-            {
-              title: `Karhuteatteri`,
-              link: `/vlogi/karhuteatteri/`,
-            },
-          ],
-        },
-        {
-          link: `/yhteydenotto`,
-          title: `Ota yhteyttä`
-        },
+    MenuLinks: [
+      {
+        title: `Etusivu`,
+        link: '/',
+      },
+      {
+        title: `Minusta`,
+        link: '/metsan-otus',
+      },
+      {
+        title: `Vlogi`,
+        link: `/vlogi`,
+        subMenu: [
+          {
+            title: `Kirjakerho`,
+            link: `/vlogi/kirjakerho/`,
+          },
+          {
+            title: `Elämänkoulu`,
+            link: `/vlogi/elamankoulu/`,
+          },
+          {
+            title: `Saarnakirja`,
+            link: `/vlogi/saarnakirja/`,
+          },
+          {
+            title: `Hunajapurkki`,
+            link: `/vlogi/hunajapurkki/`,
+          },
+          {
+            title: `Pelihalli`,
+            link: `/vlogi/pelihalli/`,
+          },
+          {
+            title: `Karhuteatteri`,
+            link: `/vlogi/karhuteatteri/`,
+          },
+        ],
+      },
+      {
+        link: `/yhteydenotto`,
+        title: `Ota yhteyttä`
+      },
     ],
-    footer:
   },
   plugins: [
     {
