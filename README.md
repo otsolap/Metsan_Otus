@@ -1,7 +1,7 @@
 # Metsan_Otus v1.1
 Official page for my youtube channel. Main goal was to have a place to host all my vlog scripts in one place. :-)
 
-Personal vlog page done with modern technology and methods. Jamstack is a popular new stack to create modern websites. Tools used in this project include Gatsby, Netlify CMS, GraphQl and Netflidy Identity.
+Personal vlog page done with modern technology and methods. Jamstack is a popular new stack to create modern websites. Tools used in this project include Gatsby, Netlify CMS, GraphQl and Netfliy Identity.
 
 This is for my YouTube persona and a place to have all my scipts. I don't release my scripts elsewhere so I thought a vlog/blog-site would be perfect for that.
 
