@@ -55,11 +55,11 @@ const Footer = ({ children }) => {
       <Container>
         <Row className="footer-social">
           <Col sm={12} md={11}>
-            <div className="footer-social-text"><p>{footer.CTA}</p></div>
+            <div className="footer-social-text"><p>{footer.footer.CTA}</p></div>
             <div className="footer-social-icons">
               {SoMe}
             </div>
-            <p>{footer.companyName}©{new Date().getFullYear()}</p>
+            <p>{footer.footer.companyName}©{new Date().getFullYear()}</p>
           </Col>
           <Col className="footer-created-by" sm={12} md={1}>
             <a target="_blank"
