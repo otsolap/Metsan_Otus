@@ -3,7 +3,7 @@ template: about-page
 slug: /metsan-otus
 title: Karhumaisia mielipiteitä
 ---
-![](/assets/MetsanOtusLogo_Cover.png)
+![Logo](/assets/MetsanOtusLogo_Cover.png)
 
 Olen paljasjalkainen stadilainen milleniaali, jolla monenlaista kiinnostuksen kohdetta. 
 
@@ -17,5 +17,4 @@ Nautin edelleenkin elokuvien ja tv-sarjojen maailmasta, vaikka sekin on kuoleva 
 
 Vloggaan rakkaudesta omaan ääneeni sekä karhumaisiin mielipiteisiini. Liity seuraani pohtimaan maailman menoa ja elämänkoulua. Maailmankatsomukseni nojautuu oman elämänkouluni kokemuksiini. Kokemuksien lisäksi olen perehtynyt stoalaisuuteen, buddhalaisuuteen ja tällä hetkellä nautin Friedrich Nietzschen tarjoamasta nihilismistä.
 
-
-Klikkaa [tästä](/vlogi ) katsomaan kaikki vlogini.
+Klikkaa [tästä](/vlogi) katsomaan kaikki vlogini.
