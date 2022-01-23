@@ -33,45 +33,6 @@ const Contact = ({ data }) => {
   // contact on meidän lomake, niin kaikki viestit löytyy contact-lomakkeen alta.
   // honeypot=bot-field on botteja varten.
   // p hidden pitää kohdan piilossa, mutta console.logilla sen löytää. ;-)
-
-  /* 
-    const [formState, setFormState] = useState({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: '',
-    })
-  
-    const handleChange = (e) => {
-      setFormState({
-        ...formState,
-        [e.target.name]: e.target.value,
-      });
-    }
-  
-    const handleSendEmail = async (event) => {
-      event.preventDefault();
-  
-      try {
-        const response = await fetch("/.netlify/functions/contact-form-email", {
-          method: "POST",
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formState),
-        })
-        if (!response.ok) {
-          //EI 200 response
-          return
-        }
-        //all OK
-      } catch (e) {
-        //error
-      }
-    }
-   */
-
   return (
     <Layout className="contact-page">
       <SEO
@@ -88,7 +49,6 @@ const Contact = ({ data }) => {
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-        // onSubmit={handleSendEmail}
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden><input name="bot-field" /></p>
@@ -98,7 +58,6 @@ const Contact = ({ data }) => {
               placeholder="Nimi *"
               type="text"
               name="name"
-            //  onChange={handleChange}
             />
             </label>
           </p>
@@ -107,7 +66,6 @@ const Contact = ({ data }) => {
               placeholder="Sähköposti *"
               type="email"
               name="email"
-            //    onChange={handleChange}
             />
             </label>
           </p>
@@ -116,7 +74,6 @@ const Contact = ({ data }) => {
               placeholder="Puhelin *"
               type="number"
               name="phone"
-            //    onChange={handleChange}
             />
             </label>
           </p>
@@ -125,7 +82,6 @@ const Contact = ({ data }) => {
               placeholder="Aihe"
               type="text"
               name="subject"
-            //    onChange={handleChange}
             />
             </label>
           </p>
@@ -133,7 +89,6 @@ const Contact = ({ data }) => {
             <label><textarea
               placeholder="Viesti"
               name="message"
-            //    onChange={handleChange}
             ></textarea></label>
           </p>
           <p className="text-align-center">

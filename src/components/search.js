@@ -59,7 +59,7 @@ class Search extends Component {
   getOrCreateIndex = () =>
     this.index
       ?
-      this.index : // Create an elastic lunr index and hydrate with graphql query results
+      this.index :
       Index.load(this.props.searchIndex)
 
   search = evt => {
@@ -67,7 +67,7 @@ class Search extends Component {
     this.index = this.getOrCreateIndex()
     this.setState({
       query,
-      // Query the index with search string to get an [] of IDs
+
       results: this.index
         .search(query, { expand: true }) // Accept partial matches
         // Map over each ID and return the full document

@@ -17,5 +17,9 @@
       "icon": "Podcast",
       "url": "https://open.spotify.com/show/5aQQ6bUXCgddbb6rIjuuxQ"
     }
-  ]
+  ],
+  "footer": {
+    "CTA": "Seuraa minua:",
+    "companyName": "Metsän Otus"
+  }
 }

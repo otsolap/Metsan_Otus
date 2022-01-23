@@ -11,10 +11,6 @@
     "image": "/assets/MetsanOtusLogoOfficial.png",
     "description": "Karhumaisia mielipiteitä"
   },
-  "footer": {
-    "CTA": "Seuraa minua:",
-    "companyName": "Metsän Otus"
-  },
   "google": {
     "gtm": "GTM-TBFDWT8"
   }

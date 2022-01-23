@@ -13,7 +13,7 @@ import {
   RiInstagramFill,
   RiRssFill,
 } from "react-icons/ri"
-import Icons from "../util/socialMedia.json"
+import Icons from "../util/content.json"
 
 export const pageQuery = graphql`
 query HomeQuery($id: String!){

@@ -73,8 +73,6 @@ module.exports = {
         title: `Ota yhteyttä`
       },
     ],
-    footer_cta: settings.footer.CTA,
-    footer_company_name: settings.footer.companyName
   },
   plugins: [
     {

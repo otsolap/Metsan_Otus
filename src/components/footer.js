@@ -1,5 +1,4 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import {
   TiSocialTwitter,
   TiSocialInstagram,
@@ -10,71 +9,57 @@ import Container from "react-bootstrap/Container"
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { StaticImage } from "gatsby-plugin-image"
-
-const query = graphql`
-query FooterQuery {
-  site {
-    siteMetadata {
-      footer_company_name
-      footer_cta
-    }
-  }
-}
-`
+import footer from "../util/content.json"
+import Icons from "../util/content.json"
 
 const Footer = ({ children }) => {
 
-  const { site } = useStaticQuery(query)
-  const {
-    footer_company_name,
-    footer_cta
-  } = site.siteMetadata
+  const SoMe = Icons.SoMeIcons.map((icons, index) => {
+    return (
+      <span className="some-icons" key={"some-icon" + index}>
+        {icons.icon === "Twitter" ? (
+          <a href={icons.url} target="_blank">
+            <RiTwitterFill />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Youtube" ? (
+          <a href={icons.url} target="_blank">
+            <RiYoutubeFill />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Instagram" ? (
+          <a href={icons.url} target="_blank">
+            <RiInstagramFill />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "Podcast" ? (
+          <a href={icons.url} target="_blank">
+            <RiRssFill />
+          </a>
+        ) : (
+          ""
+        )}
+      </span>
+    )
+  })
+
 
   return (
     <footer className="site-footer">
       <Container>
         <Row className="footer-social">
           <Col sm={12} md={11}>
-            <div className="footer-social-text"><p>{footer_cta}</p></div>
+            <div className="footer-social-text"><p>{footer.CTA}</p></div>
             <div className="footer-social-icons">
-              <a
-                target="_blank"
-                href="https://www.youtube.com/channel/UC4t1gUHiI6hTPyAOR3zlqaw"
-                rel="noopener noreferrer"
-              >
-                <span className="icon-container" id="yt-icon">
-                  <TiSocialYoutube className="footer-social-icon" />
-                </span>
-              </a>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/MetsanOtus/"
-                rel="noopener noreferrer"
-              >
-                <span className="icon-container" id="ig-icon">
-                  <TiSocialInstagram className="footer-social-icon" />
-                </span>
-              </a>
-              <a
-                target="_blank"
-                href="https://open.spotify.com/show/5aQQ6bUXCgddbb6rIjuuxQ"
-                rel="noopener noreferrer"
-              >
-                <span className="icon-container" id="rss-icon">
-                  <TiRss className="footer-social-icon" />
-                </span>
-              </a>
-              <a
-                target="_blank"
-                href="https://twitter.com/MetsanOtus"
-                rel="noopener noreferrer"
-              >
-                <span className="icon-container" id="tw-icon">
-                  <TiSocialTwitter className="footer-social-icon" />
-                </span>
-              </a>
+              {SoME}
             </div>
-            <p>{footer_company_name}©{new Date().getFullYear()}</p>
+            <p>{footer.companyName}©{new Date().getFullYear()}</p>
           </Col>
           <Col className="footer-created-by" sm={12} md={1}>
             <a target="_blank"
