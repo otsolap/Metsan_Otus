@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri";
 

@@ -1,10 +1,10 @@
 import React from "react"
 import {
-  TiSocialTwitter,
-  TiSocialInstagram,
-  TiSocialYoutube,
-  TiRss,
-} from "react-icons/ti"
+  RiTwitterFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiRssFill,
+} from "react-icons/ri"
 import Container from "react-bootstrap/Container"
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -57,7 +57,7 @@ const Footer = ({ children }) => {
           <Col sm={12} md={11}>
             <div className="footer-social-text"><p>{footer.CTA}</p></div>
             <div className="footer-social-icons">
-              {SoME}
+              {SoMe}
             </div>
             <p>{footer.companyName}©{new Date().getFullYear()}</p>
           </Col>
